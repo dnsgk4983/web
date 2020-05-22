@@ -1,7 +1,7 @@
 /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
 if (jQuery(window).width() > 0) {
     jQuery(window).on("scroll",function(ev){
-        if(jQuery(window).scrollTop() > 800 ) { /**높이 픽셀 조정**/
+        if(jQuery(window).scrollTop() > 960 ) { /**높이 픽셀 조정**/
             jQuery('.menu_box').fadeIn();  /**위의 높이에서 .fixed 클래스를 추가합니다. 스타일에서 자유롭게 수치 조절 가능합니다.**/
         }
         else{
@@ -23,19 +23,6 @@ if (jQuery(window).width() > 0) {
 	   });
     });
     $(function(){
-        $('.menu_box').fadeIn(3000);
+        $('.menu_box').fadeIn(9000);
     })
-
-    var sec2Num=1;
-
-function abc(){
-    sec2Num++;
-    
-    if(sec2Num>5) sec2Num=1;
-    {
-        document.getElementById("img").src="images/img"+sec2Num+".jpg";
-    }
-    return abc;
-}
-setInterval(abc(), 1000);
     

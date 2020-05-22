@@ -9,11 +9,13 @@
 
 <title>이레가든 빌리지</title>
 <script src="jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="css/fontawesome.css">
 <link rel="stylesheet" href="css/mastar.css">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/swiper.min.css">
-<link rel="stylesheet" href="css/fontawesome.css">
+<script src="js/fontawesome.js"></script>
+
 
 </head>
 <body>
@@ -26,18 +28,21 @@
 
 <div id="section01">
     <div class="menu_box">
-        <div class="logo"><a href="#section01"><img src="images/logo-green.png"></a></div>
+        <div class="logo">
+            <a href="#section01"><img src="images/logo-green.png"></a>
+        </div>
         <ul class="navi">
             <li><a href="#section01">이레가든 <br>　메인　</a></li>
             <li><a href="#section02">이레가든 <br>　소개　</a></li>
             <li><a href="#section03">이레가든 <br>&nbsp;갤러리&nbsp;</a></li>
             <li><a href="#section04">이레가든 <br>행사일정</a></li>
             <li><a href="#section05">이레가든 <br>오시는길</a></li>
+            <div class="menu-icon" id="btn-nav">
+                <i class="fas fa-bars" onclick="myFunction()"></i>
+            </div>
         </ul>
-        <div class="menu" id="btn-nav">
-            <i class="fas fa-bars" onclick="myFunction()"></i>
-        </div>
     </div>
+    
     <!-- menu end -->
 </div>
 <!-- section 01 -->
@@ -53,12 +58,14 @@
     </div>
     <div class="sec2_txt_box">
         <div class="sec2_txt">
-            <img src="images/section2_clover1.png">
-            <p><h2 class="sec2_txt_green">사람</h2>과&nbsp;<h2 class="sec2_txt_green">식물</h2>들이 함께 살아가는 공간</p>
+            <p><img src="images/section2_clover1.png">
+                <h2 class="sec2_txt_green">사람</h2>과&nbsp;
+                <h2 class="sec2_txt_green">식물</h2>들이 함께 살아가는 공간</p>
         </div>
         <div class="sec2_txt1">
-            <h1>이레가든 빌리지</h1><img src="images/section2_clover2.png">
+            <h1>이레가든 빌리지<img src="images/section2_clover2.png"></h1>
         </div>
+        
     </div>
 </div>
 <!-- section 02 -->
@@ -72,7 +79,7 @@
                         <div class="sec3_main_img2"></div>
                     </div>
                     <div class="sec3_txt_box1">
-                        <h1>Cafe the 조은</h1>
+                        <h1>Cafe the 조은</h1></a>
                         <h2>주변에 많은 꽃들과 어우러져있는<br>카페 휴식공간 입니다.</h2>
                     </div>
                 </div> 
@@ -123,7 +130,6 @@
 </div>
 <!-- section 05 -->
 <script src="js/js.js"></script>
-<script src="js/fontawesome.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
