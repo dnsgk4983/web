@@ -7,19 +7,23 @@
 <meta property="og:description" content="사람과 식물들이 함께 살아가는 식물문화 공간"/> 
 <meta property="og:title" content="숨쉬는 공간 이레가든빌리지"/>
 
-<title>이레가든 빌리지지지지지</title>
+<title>이레가든 빌리지</title>
 <script src="jquery-3.2.1.min.js"></script>
 <link rel="stylesheet" href="css/mastar.css">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/fontawesome.css">
 
 </head>
 <body>
 <div id="main-section">
-    <div class="main_logo"></div>
+    <div class="main_logo">
+        <img src="images/logo.png">
+    </div>
+    <div class="opacity_bg"></div>
 </div>
-<div class="opacity_bg"></div>
+
 <div id="section01">
     <div class="menu_box">
         <div class="logo"><a href="#section01"><img src="images/logo-green.png"></a></div>
@@ -30,6 +34,9 @@
             <li><a href="#section04">이레가든 <br>행사일정</a></li>
             <li><a href="#section05">이레가든 <br>오시는길</a></li>
         </ul>
+        <div class="menu" id="btn-nav">
+            <i class="fas fa-bars" onclick="myFunction()"></i>
+        </div>
     </div>
     <!-- menu end -->
 </div>
@@ -116,6 +123,7 @@
 </div>
 <!-- section 05 -->
 <script src="js/js.js"></script>
+<script src="js/fontawesome.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
