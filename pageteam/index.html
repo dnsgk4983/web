@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="이미지"/>
+<meta property="og:description" content="사람과 식물들이 함께 살아가는 식물문화 공간"/> 
+<meta property="og:title" content="숨쉬는 공간 이레가든빌리지"/>
+
+<title>이레가든 빌리지</title>
+<script src="js/jquery-3.2.1.min.js"></script>
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/mastar.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<script src="js/fontawesome.js"></script>
+
+
+</head>
+<body>
+<div id="main-section">
+    <div class="main_logo">
+        <img src="images/logo3.png" alt="">
+    </div>
+    <div class="opacity_bg"></div>
+</div>
+
+<div id="section01">
+    
+    <!-- menu end -->
+</div>
+<div class="menu_box">
+    <div class="menu-icon" id="btn-nav">
+        <i class="fas fa-bars" onclick="myFunction()"></i>
+    </div>
+        <div class="hidden-menu">
+            <div class="closebox" id="close-btn">
+                <i class="fas fa-times" onclick=""></i>
+            </div>
+            <ul class="hidden-style">
+                <li><a href="#main-section">이레가든 메인</a></li>
+                <li><a href="#section02">이레가든 소개</a></li>
+                <li><a href="#section03">이레가든 갤러리</a></li>
+                <li><a href="#section04">이레가든 행사일정</a></li>
+                <li><a href="#section05">이레가든 오시는길</a></li>
+            </ul>
+        </div>
+</div>
+<!-- section 01 -->
+<div id="section02">
+    <div class="section02_style">
+        <div class="sec2_box"></div>
+        <div class="sec2_images">
+            <div class="sec2_image1"></div>
+            <div class="sec2_image2"></div>
+            <div class="sec2_image3"></div>
+            <div class="sec2_image4"></div>
+        </div>
+    </div>
+    <div class="sec2_txt_box">
+        <div class="sec2_align">
+            <div class="sec2_txt">
+                <p><img src="images/section2_clover1.png">
+                    <h2 class="sec2_txt_green">사람</h2>과&nbsp;
+                    <h2 class="sec2_txt_green">식물</h2>들이 함께 살아가는 공간</p>
+            </div>
+            <div class="sec2_txt1">
+                <h1>이레가든 빌리지<img src="images/section2_clover2.png"></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section 02 -->
+<div id="section03">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slider1">
+                <div class="sec3_line1">
+                    <div class="sec3_align1">
+                        <div class="sec3_main_img1"></div>
+                        <div class="sec3_main_img2"></div>
+                    </div>
+                    <div class="sec3_txt_box1">
+                        <h1>Cafe the 조은</h1></a>
+                        <h2>주변에 많은 꽃들과 어우러져있는<br>카페 휴식공간 입니다.</h2>
+                    </div>
+                </div> 
+                <div class="sec3_line2">
+                    <div class="sec3_txt_box2">
+                        <h1>도서 & 휴식공간</h1>
+                        <h2>많은 책들과 꽃이 배치되어 있어<br>쉬기 좋은 공간입니다.</h2>
+                    </div>
+                    <div class="sec3_align2">
+                        <div class="sec3_main_img3"></div>
+                        <div class="sec3_main_img4"></div>
+                    </div>  
+                </div>
+          </div>
+            <div class="swiper-slide slider2">
+                <div class="sec3_line3">
+                    <div class="sec3_align3">
+                        <div class="sec3_main_img5"></div>
+                        <div class="sec3_main_img6"></div>
+                    </div>
+                    <div class="sec3_txt_box3">
+                        <h1>벤치 & 작은호수</h1>
+                        <h2>이레가든 곳곳에 쉴 수 있는 벤치와<br>그 맞은 편에는 작은호수가 있습니다.</h2>
+                    </div>
+                </div>
+                <div class="sec3_line4">
+                    <div class="sec3_txt_box4">
+                        <h1>꽃과 장식들</h1>
+                        <h2>수많은 꽃들 사이에 귀엽고 예쁜<br>장식들이 배치되어 있습니다.</h2>
+                    </div>
+                    <div class="sec3_align4">
+                        <div class="sec3_main_img7"></div>
+                        <div class="sec3_main_img8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<!-- section 03 -->
+<div id="section04">
+
+</div>
+<!-- section 04 -->
+<div id="section05">
+
+</div>
+<!-- section 05 -->
+<script src="js/js.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+    spaceBetween: 80,
+    centeredSlides: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+</body>
+</html>
