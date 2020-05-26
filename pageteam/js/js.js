@@ -5,6 +5,8 @@ $(document).ready(function(){
         $(".hidden-menu").slideDown();
         $("#btn-nav").css("display","none");
         $("#close-btn").css("display","flex");
+        
+        
     });
     $("#close-btn").click(function(){
         $(".hidden-menu").slideUp();

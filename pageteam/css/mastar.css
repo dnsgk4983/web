@@ -4,6 +4,10 @@
     font-weight: normal;
     font-style: normal;
 }
+head,body{
+    width: 100%;
+    height: 100%;
+}
 
 li {
     list-style: none;
@@ -36,7 +40,10 @@ li {
 }
 /* main-section end */
 .menu_box{
-    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    
 }
 .menu-icon {
     top: 20px;
@@ -49,9 +56,6 @@ li {
 }
 
 .hidden-menu{
-    width: 100%;
-    height: auto;
-    background-color: #000;
     display: none;
 }
 .closebox{
@@ -81,7 +85,7 @@ li {
 .hidden-style a{
     font-weight: 800;
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 .hidden-style a:hover{
     color:#82b561;
@@ -119,7 +123,7 @@ li {
         transition: all .5s ease;
         font-size: 50px;
     }
-    .hidden-style{
+    .hidden-style a{
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
         -ms-transition: all .5s ease;
