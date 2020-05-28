@@ -28,8 +28,8 @@
             <ul class="nav">
                 <li><a href="#section01" class="cont_nav1">이레가든 메인</a></li>
                 <li><a href="#section02" class="cont_nav2">이레가든 소개</a></li>
-                <li><a href="#section03" class="cont_nav3">이레가든 갤러리</a></li>
-                <li><a href="#section04" class="cont_nav4">이레가든 행사일정</a></li>
+                <li><a href="#section03" class="cont_nav3">이레가든 이용안내</a></li>
+                <li><a href="#section04" class="cont_nav4">이레가든 갤러리</a></li>
                 <li><a href="#section05" class="cont_nav5">이레가든 오시는길</a></li>
             </ul>
         </div>
@@ -59,7 +59,7 @@
             <div class="sec2_cont2">
                 <div class="sec2_box"></div>
                 <div class="sec2_img">
-                    <img src="images/section2_main_img1.png" alt="" id="sec2_img">
+                    <img src="images/section2_main_img1.png" alt="슬라이드" class="slideImg">
                 </div>
                 <div class="sec2_sub">
                     <img src="images/section2_sub1.png" alt="">
@@ -68,26 +68,12 @@
         </div>
         
     </div>
-    <script>
-        var num=1;
-
-function abc(){
-    num++;
-    
-    if(num>5) num=1;
-    {
-        document.getElementById("img").src="images/img"+num+".jpg";
-    }
-    return abc;
-    }
-    setInterval(abc(), 1000);
-
-
-    </script>
     <!-- section02 end -->
     <div id="section03">
         <div class="container03">
+            
             <div class="swiper-container">
+                
                 <div class="swiper-wrapper">
                   <div class="swiper-slide slider1">
                     <div class="sec3_line1">
@@ -110,8 +96,8 @@ function abc(){
                             <div class="sec3_main_img4"></div>
                         </div>  
                     </div>
-                  </div>
-                  <div class="swiper-slide slider2">
+                </div>
+                <div class="swiper-slide slider2">
                     <div class="sec3_line3">
                         <div class="sec3_align3">
                             <div class="sec3_main_img5"></div>
@@ -132,8 +118,8 @@ function abc(){
                             <div class="sec3_main_img8"></div>
                         </div>
                     </div>
-                  </div>
                 </div>
+            </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
                 <!-- Add Arrows -->
@@ -144,10 +130,10 @@ function abc(){
     </div>
     <script>
 var swiper = new Swiper('.swiper-container', {
-    spaceBetween: 30,
+    spaceBetween: 0,
     centeredSlides: true,
     autoplay: {
-    delay: 10000,
+    delay: 5000,
     disableOnInteraction: false,
     },
     pagination: {
@@ -167,34 +153,3 @@ var swiper = new Swiper('.swiper-container', {
     <!-- section05 end -->
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-<!-- <div class="container02">
-    <div class="sec2_cont2">
-        <div class="sec2_txt1">
-            <img src="images/section2_clover1.png" alt="">
-            <h2><strong class="green">사람</strong>과<strong class="green">
-                식물</strong>들이 함께 살아가는 공간</h2>
-        </div>
-        <div class="sec2_txt2">
-            <h1><strong>이레가든 빌리지</strong></h1><img src="images/section2_clover2.png" alt="">
-        </div>
-    </div>
-    <div class="sec2_cont1">
-        <div class="sec2_box"></div>
-        <div class="sec2_img">
-            <img src="images/section2_main_img1.png" alt="슬라이드" id="png">
-        </div>
-        <div class="sec2_sub">
-            <img src="images/section2_sub1.png" alt="">
-        </div>
-    </div>
-    
-</div> -->

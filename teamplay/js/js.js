@@ -37,20 +37,16 @@ $(function(){
     });
 });
 
+AutoSlide()
 
-
-function setInterval(){
-    function abc(){
-        var num=1;
+var num=1;
+function AutoSlide(){
         num++;
         
-        if(num>4) num=1;
+        if(num>3) num=1;
         {
-            document.getElementById("sec2_img").src="images/section2_main_img"+num+".png";
+            document.getElementsByClassName("slideImg").src="images/section2_main_img"+num+".png";
         }
         return abc;
     }
     setInterval(abc(), 1000);
-}
-
-
