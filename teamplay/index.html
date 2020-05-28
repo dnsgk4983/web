@@ -26,11 +26,11 @@
         </div>
         <div class="cont">
             <ul class="nav">
-                <li><a href="#section01">이레가든 메인</a></li>
-                <li><a href="#section02">이레가든 소개</a></li>
-                <li><a href="#section03">이레가든 갤러리</a></li>
-                <li><a href="#section04">이레가든 행사일정</a></li>
-                <li><a href="#section05">이레가든 오시는길</a></li>
+                <li><a href="#section01" class="cont_nav1">이레가든 메인</a></li>
+                <li><a href="#section02" class="cont_nav2">이레가든 소개</a></li>
+                <li><a href="#section03" class="cont_nav3">이레가든 갤러리</a></li>
+                <li><a href="#section04" class="cont_nav4">이레가든 행사일정</a></li>
+                <li><a href="#section05" class="cont_nav5">이레가든 오시는길</a></li>
             </ul>
         </div>
     </div>
@@ -45,23 +45,28 @@
     </div>
     <!-- section01 end -->
     <div id="section02">
-        <div class="sec2_bg">
-            <div class="sec2_left">
-                <div class="sec2_box"></div>
-                <div class="sec2_img"></div>
-            </div>
-            <div class="sec2_right">
+        <div class="container2">
+            <div class="sec2_cont1">
                 <div class="sec2_txt1">
-                    <p><img src="images/section2_clover1.png" alt="클로버1">
-                        <h2 class="sec2_green">사람</h2>과&nbsp;<h2 class="sec2_green">식물</h2>들이 함께
-                        살아가는 공간
-                    </p>
+                    <img src="images/section2_clover1.png" alt=""><h2><strong>사람</strong>과
+                    <strong>식물</strong>들이 함께 살아가는 공간
+                    </h2>
                 </div>
                 <div class="sec2_txt2">
-                    <h1>이레가든 빌리지<img src="images/section2_clover2.png" alt="클로버2"></h1>
+                    <h1>이레가든 빌리지</h1><img src="images/section2_clover2.png" alt="">
+                </div>
+            </div>
+            <div class="sec2_cont2">
+                <div class="sec2_box"></div>
+                <div class="sec2_img">
+                    <img src="images/section2_main_img1.png" alt="" id="sec2_img">
+                </div>
+                <div class="sec2_sub">
+                    <img src="images/section2_sub1.png" alt="">
                 </div>
             </div>
         </div>
+        
     </div>
     <!-- section02 end -->
     <div id="section03">
@@ -126,7 +131,7 @@ var swiper = new Swiper('.swiper-container', {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-    delay: 2500,
+    delay: 10000,
     disableOnInteraction: false,
     },
     pagination: {
@@ -146,3 +151,34 @@ var swiper = new Swiper('.swiper-container', {
     <!-- section05 end -->
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!-- <div class="container02">
+    <div class="sec2_cont2">
+        <div class="sec2_txt1">
+            <img src="images/section2_clover1.png" alt="">
+            <h2><strong class="green">사람</strong>과<strong class="green">
+                식물</strong>들이 함께 살아가는 공간</h2>
+        </div>
+        <div class="sec2_txt2">
+            <h1><strong>이레가든 빌리지</strong></h1><img src="images/section2_clover2.png" alt="">
+        </div>
+    </div>
+    <div class="sec2_cont1">
+        <div class="sec2_box"></div>
+        <div class="sec2_img">
+            <img src="images/section2_main_img1.png" alt="슬라이드" id="png">
+        </div>
+        <div class="sec2_sub">
+            <img src="images/section2_sub1.png" alt="">
+        </div>
+    </div>
+    
+</div> -->
