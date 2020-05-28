@@ -68,6 +68,22 @@
         </div>
         
     </div>
+    <script>
+        var num=1;
+
+function abc(){
+    num++;
+    
+    if(num>5) num=1;
+    {
+        document.getElementById("img").src="images/img"+num+".jpg";
+    }
+    return abc;
+    }
+    setInterval(abc(), 1000);
+
+
+    </script>
     <!-- section02 end -->
     <div id="section03">
         <div class="container03">

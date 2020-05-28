@@ -4,6 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
+html{
+    scroll-behavior: smooth;
+}
 head,body{
     width: 100%;
     height: 100%;

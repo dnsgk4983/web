@@ -38,16 +38,19 @@ $(function(){
 });
 
 
-var num=1;
 
-function abc(){
-    num++;
-    
-    if(num>4) num=1;
-    {
-        document.getElementById("sec2_img").src="images/section2_main_img"+num+".png";
+function setInterval(){
+    function abc(){
+        var num=1;
+        num++;
+        
+        if(num>4) num=1;
+        {
+            document.getElementById("sec2_img").src="images/section2_main_img"+num+".png";
+        }
+        return abc;
     }
-    return abc;
+    setInterval(abc(), 1000);
 }
-setInterval(abc(), 1000);
+
 
