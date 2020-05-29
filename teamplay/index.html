@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon_jwW_icon.ico">
+    <title>이레가든 빌리지</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -13,6 +15,49 @@
     <script src="js/swiper.min.js"></script>
     <script src="js/fontawesome.js"></script>
     <script src="js/js.js"></script>
+    <style>
+    .customoverlay {
+        position:relative;
+        bottom:85px;
+        border-radius:6px;
+        border: 1px solid #ccc;
+        border-bottom:2px solid #ddd;
+        left:8px;
+        float:left;
+    }
+    .customoverlay:nth-of-type(n) {
+        border:0; 
+        box-shadow:0px 1px 2px #888;
+    }
+    .customoverlay a {
+        display:block;
+        text-decoration:none;
+        color:#000;
+        text-align:center;
+        border-radius:6px;
+        font-size:14px;
+        font-weight:bold;
+        overflow:hidden;
+        background: #0b3102;
+        background: #0b3102 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+    .customoverlay .title {
+        display:block;
+        text-align:center;
+        background:#fff;
+        margin-right:35px;
+        padding:10px 15px;
+        font-size:14px;
+        font-weight:bold;}
+    .customoverlay:after {
+        content:'';
+        position:absolute;
+        margin-left:-12px;
+        left:50%;
+        bottom:-12px;
+        width:22px;
+        height:12px;
+        background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+    </style>
 </head>
 <body>
     <div class="menu_cont">
@@ -37,7 +82,7 @@
     
     <!-- menu_cont end -->
     <div id="section01">
-        <div class="container01"></div>
+        <div class="container1"></div>
         <div class="section01_opacity"></div>
         <div class="main_logo">
             <img src="images/logo3.png" alt="로고">
@@ -70,10 +115,11 @@
     </div>
     <!-- section02 end -->
     <div id="section03">
-        <div class="container03">
-            
+        <div class="container3">
+            <div class="sec3-txt">
+                <h1>이레가든 이용안내</h1>
+            </div>
             <div class="swiper-container">
-                
                 <div class="swiper-wrapper">
                   <div class="swiper-slide slider1">
                     <div class="sec3_line1">
@@ -97,6 +143,7 @@
                         </div>  
                     </div>
                 </div>
+                <!-- section3 slider1 end -->
                 <div class="swiper-slide slider2">
                     <div class="sec3_line3">
                         <div class="sec3_align3">
@@ -119,6 +166,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- section3 slider2 end -->
             </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
@@ -147,9 +195,114 @@ var swiper = new Swiper('.swiper-container', {
 });
     </script>
     <!-- section03 end -->
-    <div id="section04"></div>
+    <div id="section04">
+        <div class="sec4-hidden">
+            <img src="images/close.png" alt="" class="sec4-closebtn">
+            
+            <div class="sec4-pop">
+                <div class="sec4-hidden-img">
+                    <div class="sec4-img-align1">
+                        <img src="sec4/sec4_img1.jpg" alt="섹션4 1번 확대 이미지" class="sec4-h-1">
+                        <img src="sec4/sec4_img2.jpg" alt="섹션4 2번 확대 이미지" class="sec4-h-2">
+                    </div>
+                    <div class="sec4-img-align2">
+                        <img src="sec4/sec4_img3.jpg" alt="섹션4 3번 확대 이미지" class="sec4-h-3">
+                        <img src="sec4/sec4_img4.jpg" alt="섹션4 4번 확대 이미지" class="sec4-h-4">
+                    </div>
+                    <div class="sec4-img-align3">
+                        <img src="sec4/sec4_img5.jpg" alt="섹션4 5번 확대 이미지" class="sec4-h-5">
+                        <img src="sec4/sec4_img6.jpg" alt="섹션4 6번 확대 이미지" class="sec4-h-6">
+                    </div>
+                    <div class="sec4-img-align-4">
+                        <img src="sec4/sec4_img7.jpg" alt="섹션4 7번 확대 이미지" class="sec4-h-7">
+                        <img src="sec4/sec4_img8.jpg" alt="섹션4 8번 확대 이미지" class="sec4-h-8">
+                    </div>
+                    <div class="sec4-img-align-5">
+                        <img src="sec4/sec4_img9.jpg" alt="섹션4 9번 확대 이미지" class="sec4-h-9">
+                        <img src="sec4/sec4_img10.jpg" alt="섹션4 10번 확대 이미지" class="sec4-h-10">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container4">
+            <div class="sec4-txt">
+                <h1>이레가든 갤러리</h1>
+            </div>
+            <div class="sec4-wrap">
+                <div class="sec4-images">
+                    <img src="sec4/sec4_img1.jpg" alt="섹션4 1번이미지" class="sec4-1">
+                    <img src="sec4/sec4_img2.jpg" alt="섹션4 2번이미지" class="sec4-2">
+                    <img src="sec4/sec4_img3.jpg" alt="섹션4 3번이미지" class="sec4-3">
+                    <img src="sec4/sec4_img4.jpg" alt="섹션4 4번이미지" class="sec4-4">
+                    <img src="sec4/sec4_img5.jpg" alt="섹션4 5번이미지" class="sec4-5">
+                    <img src="sec4/sec4_img6.jpg" alt="섹션4 6번이미지" class="sec4-6">
+                    <img src="sec4/sec4_img7.jpg" alt="섹션4 7번이미지" class="sec4-7">
+                    <img src="sec4/sec4_img8.jpg" alt="섹션4 8번이미지" class="sec4-8">
+                    <img src="sec4/sec4_img9.jpg" alt="섹션4 9번이미지" class="sec4-9">
+                    <img src="sec4/sec4_img10.jpg" alt="섹션4 10번이미지" class="sec4-10">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- section04 end -->
-    <div id="section05"></div>
+    <div id="section05">
+        <div class="container5">
+            <div class="sec5-txt">
+                <h1>이레가든 오시는길</h1>
+            </div>
+            <div class="map-container">
+                <div id="map" style="width: 1200px; height: 500px; position: relative; top: 20px; left: 20px;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1b9f347955cc6e8a497c38c9a16c224a"></script>
+<script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+  mapOption = { 
+        center: new kakao.maps.LatLng(37.655369, 126.613731), // 지도의 중심좌표
+        level: 4 // 지도의 확대 레벨
+    };
+
+var map = new kakao.maps.Map(mapContainer, mapOption);
+
+var imageSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png', // 마커이미지의 주소입니다    
+    imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+    imageOption = {offset: new kakao.maps.Point(22, 60)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+    markerPosition = new kakao.maps.LatLng(37.655369, 126.613731); // 마커가 표시될 위치입니다
+
+// 마커를 생성합니다
+var marker = new kakao.maps.Marker({
+  position: markerPosition,
+  image: markerImage // 마커이미지 설정 
+});
+
+// 마커가 지도 위에 표시되도록 설정합니다
+marker.setMap(map);  
+
+// 커스텀 오버레이에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+var content = '<div class="customoverlay">' +
+    '  <a href="https://map.kakao.com/link/map/11394059" target="_blank">' +
+    '    <span class="title" style="color:#0b3102; font-weight:bold;">이레가든 빌리지</span>' +
+    '  </a>' +
+    '</div>';
+
+// 커스텀 오버레이가 표시될 위치입니다 
+var position = new kakao.maps.LatLng(37.655369, 126.613731);  
+
+// 커스텀 오버레이를 생성합니다
+var customOverlay = new kakao.maps.CustomOverlay({
+    map: map,
+    position: position,
+    content: content,
+    yAnchor: 1 
+});
+</script>
     <!-- section05 end -->
 </body>
 </html>

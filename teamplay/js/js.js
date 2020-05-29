@@ -36,17 +36,117 @@ $(function(){
         $(".cont").fadeOut();
     });
 });
+$(function(){
+    $(".sec4-1").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-1").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut(); 
+       $(".sec4-h-1").fadeOut();
+       $(".menu_btn").fadeIn();
+    });
+// sec4-1 fade In/Out
+    $(".sec4-2").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-2").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut();
+       $(".sec4-h-2").fadeOut(); 
+       $(".menu_btn").fadeIn();
+    });
 
-AutoSlide()
+    $(".sec4-3").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-3").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut();
+       $(".sec4-h-3").fadeOut(); 
+       $(".menu_btn").fadeIn();
+    });
 
-var num=1;
-function AutoSlide(){
-        num++;
-        
-        if(num>3) num=1;
-        {
-            document.getElementsByClassName("slideImg").src="images/section2_main_img"+num+".png";
-        }
-        return abc;
-    }
-    setInterval(abc(), 1000);
+    $(".sec4-4").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-4").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut();
+       $(".sec4-h-4").fadeOut(); 
+       $(".menu_btn").fadeIn();
+    });
+
+    $(".sec4-5").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-5").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut(); 
+       $(".sec4-h-5").fadeOut();
+       $(".menu_btn").fadeIn();
+    });
+
+    $(".sec4-6").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-6").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut(); 
+       $(".sec4-h-6").fadeOut();
+       $(".menu_btn").fadeIn();
+    });
+
+    $(".sec4-7").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-7").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut(); 
+       $(".sec4-h-7").fadeOut();
+       $(".menu_btn").fadeIn();
+    });
+
+    $(".sec4-8").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-8").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut();
+       $(".sec4-h-8").fadeOut(); 
+       $(".menu_btn").fadeIn();
+    });
+
+    $(".sec4-9").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-9").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut(); 
+       $(".sec4-h-9").fadeOut();
+       $(".menu_btn").fadeIn();
+    });
+
+    $(".sec4-10").click(function(){
+        $(".menu_btn").css("display","none");
+        $(".sec4-hidden").fadeIn();
+        $(".sec4-h-10").fadeIn();
+    });
+    $(".sec4-closebtn").click(function(){
+       $(".sec4-hidden").fadeOut(); 
+       $(".sec4-h-10").fadeOut();
+       $(".menu_btn").fadeIn();
+    });
+});
+
+
+    
