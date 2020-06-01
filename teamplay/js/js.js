@@ -37,6 +37,8 @@ $(function(){
     });
 });
 $(function(){
+    $(".img1").show();
+    $(".img2").hide();
     $(".sec4-1").click(function(){
         $(".menu_btn").css("display","none");
         $(".sec4-hidden").fadeIn();
@@ -142,11 +144,14 @@ $(function(){
         $(".sec4-h-10").fadeIn();
     });
     $(".sec4-closebtn").click(function(){
-       $(".sec4-hidden").fadeOut(); 
-       $(".sec4-h-10").fadeOut();
-       $(".menu_btn").fadeIn();
+        $(".sec4-hidden").fadeOut(); 
+        $(".sec4-h-10").fadeOut();
+        $(".menu_btn").fadeIn();
     });
+    setInterval(function(){
+        $(".img2").fadeToggle(1000);
+        $(".img1").fadeToggle(1000);
+    }, 5000);
 });
-
 
     

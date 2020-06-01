@@ -104,7 +104,8 @@
             <div class="sec2_cont2">
                 <div class="sec2_box"></div>
                 <div class="sec2_img">
-                    <img src="images/section2_main_img1.png" alt="슬라이드" class="slideImg">
+                    <img src="images/section2_main_img1.png" alt="슬라이드1" class="img1">
+                    <img src="images/section2_main_img2.png" alt="슬라이드2" class="img2">
                 </div>
                 <div class="sec2_sub">
                     <img src="images/section2_sub1.png" alt="">
@@ -113,6 +114,7 @@
         </div>
         
     </div>
+
     <!-- section02 end -->
     <div id="section03">
         <div class="container3">
@@ -201,23 +203,14 @@ var swiper = new Swiper('.swiper-container', {
             
             <div class="sec4-pop">
                 <div class="sec4-hidden-img">
-                    <div class="sec4-img-align1">
                         <img src="sec4/sec4_img1.jpg" alt="섹션4 1번 확대 이미지" class="sec4-h-1">
                         <img src="sec4/sec4_img2.jpg" alt="섹션4 2번 확대 이미지" class="sec4-h-2">
-                    </div>
-                    <div class="sec4-img-align2">
                         <img src="sec4/sec4_img3.jpg" alt="섹션4 3번 확대 이미지" class="sec4-h-3">
                         <img src="sec4/sec4_img4.jpg" alt="섹션4 4번 확대 이미지" class="sec4-h-4">
-                    </div>
-                    <div class="sec4-img-align3">
                         <img src="sec4/sec4_img5.jpg" alt="섹션4 5번 확대 이미지" class="sec4-h-5">
                         <img src="sec4/sec4_img6.jpg" alt="섹션4 6번 확대 이미지" class="sec4-h-6">
-                    </div>
-                    <div class="sec4-img-align-4">
                         <img src="sec4/sec4_img7.jpg" alt="섹션4 7번 확대 이미지" class="sec4-h-7">
                         <img src="sec4/sec4_img8.jpg" alt="섹션4 8번 확대 이미지" class="sec4-h-8">
-                    </div>
-                    <div class="sec4-img-align-5">
                         <img src="sec4/sec4_img9.jpg" alt="섹션4 9번 확대 이미지" class="sec4-h-9">
                         <img src="sec4/sec4_img10.jpg" alt="섹션4 10번 확대 이미지" class="sec4-h-10">
                     </div>
@@ -252,9 +245,40 @@ var swiper = new Swiper('.swiper-container', {
                 <h1>이레가든 오시는길</h1>
             </div>
             <div class="map-container">
-                <div id="map" style="width: 1200px; height: 500px; position: relative; top: 20px; left: 20px;">
-
+                <div id="map"></div>
+            </div>
+            <div class="sec5-info">
+                <div class="sec5-address">
+                    <h1>이레가든 주소</h1>
+                    <h2>경기도 김포시 양촌읍 대명항로 46 
+                        이레가든 빌리지</h2>
                 </div>
+                <div class="sec5-time">
+                    <div class="sec5-open-txt1">
+                        <!-- <img src="sec5/clock.png" alt=""> -->
+                        <h1>이레가든 운영시간</h1>
+                    </div>
+                    <div class="sec5-open-txt2">
+                        <h2>평일  : 09:00 ~ 19:00</h2>
+                        <h2>토요일 : 09:00 ~ 20:00</h2>
+                    </div>
+                </div>
+                <div class="sec5-bus">
+                    <div class="sec5-come"><h1>대중교통</h1></div>
+                    <div class="sec5-bus1">
+                        <img src="sec5/bus1.png" alt="">
+                        <h2>60-3, 102, 공영쇄암
+                            <br>가오대입구 하차 도보 1분</h2>
+                    </div>
+                    <div class="sec5-bus2">
+                        <img src="sec5/bus2.png" alt="">
+                        <h2>60-2, 70, 700-1
+                            <br>가오대입구 하차 도보 1분</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="sec5-bottom">
+                <h1>TEL : 080-324-1000　|　E-MAIL : chounflower@naver.com</h1>
             </div>
         </div>
     </div>
@@ -268,9 +292,9 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 
 var map = new kakao.maps.Map(mapContainer, mapOption);
 
-var imageSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png', // 마커이미지의 주소입니다    
+var imageSrc = 'img/ping.png', // 마커이미지의 주소입니다    
     imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
-    imageOption = {offset: new kakao.maps.Point(22, 60)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+    imageOption = {offset: new kakao.maps.Point(28, 70)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
 
 // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
 var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),

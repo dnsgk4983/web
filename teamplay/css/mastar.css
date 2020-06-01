@@ -217,17 +217,23 @@ a{
     border: 2px solid #0b3102;
 }
 .sec2_img img{
-    position: relative;
-    display: flex;
+    position: absolute;
+    display: block;
     top: 30px;
     left: 370px;
     width: 420px;
     height: 420px;
 }
+.img2{
+    display: none;
+}
+.img3{
+    display: none;
+}
 .sec2_sub img{
     position: relative;
     top: 58px;
-    left: 700px;
+    left: 1200px;
     width: 420px;
     height: auto;
 }
@@ -239,21 +245,45 @@ a{
     .sec2_box{
         display: none;
     }
-    .sec2_cont2{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-        flex-direction: column;
-    }
     .sec2_cont1{
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-top: 30px;
+        top: 60px;
+    }
+    .sec2_txt1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 20px;
+    }
+    .sec2_txt1 h2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        padding-top: 6px;
+    }
+    .sec2_txt2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 20px;
+    }
+    .sec2_txt2>h1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        padding-top: 10px;
     }
     .sec2_img img{
         -webkit-transition: all .5s ease;
@@ -261,7 +291,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        top: -70px;
+        top: -180px;
         left: 30px;
         border: 2px solid #0b3102;
     }
@@ -271,8 +301,17 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        top: 0px;
+        top: 280px;
         left: 30px;
+        width: 424px;
+    }
+    .sec2_cont2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        flex-direction: column;
     }
 }
 
@@ -467,103 +506,224 @@ a{
 }
 /* slide2 end */
 @media (max-width: 767px){
+    .sec3-txt h1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 40px;
+        top: 68px;
+    }
     .sec3_line1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
     .sec3_align1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding-left: 20px;
         width: 402px;
         height: auto;
     }
     .sec3_main_img1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_main_img2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_txt_box1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding: 0 0px 18px;
     }
     
     .sec3_line2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
     }
     .sec3_align2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding-left: 20px;
         width: 402px;
         height: auto;
     }
     .sec3_main_img3{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_main_img4{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_txt_box2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding: 0 0 18px;
     }
     .sec3_line3{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
     }
     .sec3_align3{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding-left: 20px;
         width: 402px;
         height: auto;
     }
     .sec3_main_img5{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_main_img6{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_txt_box3{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding: 0 0px 18px;
     }
 
     .sec3_line4{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
     }
     .sec3_align4{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding-left: 20px;
         width: 402px;
         height: auto;
     }
     .sec3_main_img7{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_main_img8{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         width: 196px;
         height: 196px;
     }
     .sec3_txt_box4{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         padding: 0 0 18px;
     }
     .swiper-button-next{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         display: none;
     }
     .swiper-button-prev{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
         display: none;
     }
 }
+/* section3 media end */
+/* section3 end */
 #section04{
     width: 100%;
     height: 100%;
@@ -596,7 +756,7 @@ a{
     height: 800px;
     margin: 0 auto;
     position: relative;
-    top: 120px
+    top: 60px
 }
 .sec4-pop img{
     width: 1200px;
@@ -658,6 +818,69 @@ a{
     padding:12px 10px;
     cursor: pointer;
 }
+
+@media (max-width: 767px){
+    .sec4-txt h1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 40px;
+    }
+    .sec4-txt{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        top: 60px;
+    }
+    .sec4-images img{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 200px;
+        height: 200px;
+    }
+    .sec4-images{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 100%;
+        height: auto;
+        left: 20px;
+        top:100px
+    }
+    .sec4-hidden{
+        width: 100%;
+        height: 1080px;
+    }
+    .sec4-closebtn{
+        width: 30px;
+        height: 30px;
+        top:420px;
+        left: 430px;
+    }
+    
+    .sec4-pop{
+        width: 300px;
+        height: 300px;
+        top: 420px
+    }
+    .sec4-pop img{
+        width: 300px;
+        height: 300px;
+    }
+    .sec4-9,.sec4-10{
+        display: none;
+    }
+}
+/* section04 media end */
 /* section04 end */
 #section05{
     width: 100%;
@@ -680,11 +903,236 @@ a{
     font-size: 48px;
     color: #0b3102;
 }
+/* section5 title */
+
 .map-container{
-    top: 270px;
+    top: 200px;
     position: relative;
     width: 1240px;
     height: 540px;
     border: .5px solid #0b3102;
     margin: 0 auto;
 }
+#map{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+/* 지도 */
+
+.sec5-info{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    padding-left: 180px;
+}
+/* 하단영역 크기조절 */
+.sec5-address{
+    width: 380px;
+    height: auto;
+    font-family: 'GyeonggiBatang';
+    color: #0b3102;
+    padding-top: 24px;
+    
+}
+.sec5-address h1{
+    font-size: 20px;
+    
+}
+.sec5-address h2{
+    padding-top: 10px;
+    padding-right: 150px;
+    line-height: 24px;
+}
+/* section5 주소 */
+.sec5-time{
+    width: 380px;
+    height: auto;
+    padding-top: 24px;
+}
+.sec5-open-txt1 h1{
+    color: #0b3102;
+    font-family: 'GyeonggiBatang';
+    font-size: 20px;
+}
+.sec5-open-txt2{
+    padding-top:12px;
+    color: #0b3102;
+    line-height: 26px;
+    font-family: 'GyeonggiBatang';
+}
+/* section5 운영시간 */
+.sec5-bus{
+    width: 380px;
+    height: auto;
+}
+.sec5-come h1{
+    font-family: 'GyeonggiBatang';
+    color: #0b3102;
+    font-size: 20px;
+    padding-top: 24px;
+}
+.sec5-bus1{
+    position: relative;
+    top: 16px;
+    display: flex;
+    line-height: 24px;
+}
+.sec5-bus1 h2{
+    
+    padding-left: 16px;
+    font-family: 'GyeonggiBatang';
+    color: #0b3102;
+}
+.sec5-bus2{
+    position: relative;
+    top: 46px;
+    display: flex;
+    line-height: 24px;
+}
+.sec5-bus2 h2{
+    
+    padding-left: 16px;
+    font-family: 'GyeonggiBatang';
+    color: #0b3102;
+}
+.sec5-bus img{
+    width: 49px;
+    height: 40px;
+    padding-top: 2px;
+}
+/* section5 대중교통 */
+.sec5-bottom{
+    font-size: 8px;
+    color: #0b3102;
+    font-family: 'GyeonggiBatang';
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+}
+/* section5 하단영역 */
+
+/* section5 media query */
+@media (max-width:767px){
+    .sec5-txt{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        top: 60px;
+    }
+    .sec5-txt > h1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 40px;
+    }
+    .sec5-info{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 1200px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin: 0 auto;
+        top: 200px;
+        padding-left: 180px;
+    }
+    .map-container{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        top: 120px;
+        width: 420px;
+        height: 420px;
+        border: .5px solid #0b3102;
+    }
+    #map{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 380px;
+        height: 380px;
+    }
+    .sec5-info{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 420px;
+        top: 120px;
+        padding-left: 20px;
+    }
+    .sec5-address{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 200px;
+    }
+    .sec5-address h2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        padding-right: 0px;
+    }
+    .sec5-time{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 200px;
+    }
+    .sec5-bus{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        display: inline-block;
+        position: absolute;
+        width: 600px;
+        top: 130px;
+    }
+    .sec5-bus2{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        top: 30px;
+    }
+    .sec5-bottom{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        font-size: 6px;
+        top: 420px;
+    }
+}
+/* section5 media end */
