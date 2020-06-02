@@ -149,8 +149,8 @@ $(function(){
         $(".menu_btn").fadeIn();
     });
     setInterval(function(){
-        $(".img2").fadeToggle(1000);
-        $(".img1").fadeToggle(1000);
+        $('.img2').fadeToggle(1000);
+        $('.img1').fadeToggle(1000);
     }, 5000);
 });
 

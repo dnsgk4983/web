@@ -61,7 +61,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 20%;
+    top: 30%;
     left: 45%;
 }
 .nav a{
@@ -106,7 +106,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        top: 20%;
+        top: 16%;
         left: 37%;
     }
     .nav>li>a{
