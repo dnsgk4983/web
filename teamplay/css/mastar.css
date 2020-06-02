@@ -28,7 +28,7 @@ a{
 }
 .menu_btn{
     top: 40px;
-    right: 50px;
+    right: 50px ;
     color:#0b3102;
     font-size: 120px;
     cursor: pointer;
@@ -341,7 +341,7 @@ a{
     position: relative;
     top: 120px;
     margin: 0 auto;
-    z-index: 999999;
+    z-index: 5555;
     font-family: 'GyeonggiBatang';
     color: #0b3102;
     font-size: 48px;
@@ -529,7 +529,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 20px;
+        padding-left: 40px;
         width: 402px;
         height: auto;
     }
@@ -577,7 +577,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 20px;
+        padding-left: 40px;
         width: 402px;
         height: auto;
     }
@@ -624,7 +624,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 20px;
+        padding-left: 40px;
         width: 402px;
         height: auto;
     }
@@ -672,7 +672,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 20px;
+        padding-left: 40px;
         width: 402px;
         height: auto;
     }
