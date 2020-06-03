@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/favicon_jwW_icon.ico">
+    <meta property="og:image" content="images/og_logo.png"/> 
+    <meta property="og:description" content="사람과 식물들이 함께 살아가는 식물문화 공간"/> 
+    <meta property="og:title" content="숨쉬는 공간 이레가든빌리지"/>
     <title>이레가든 빌리지</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/mastar.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/fontawesome.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/js.js"></script>
     <style>
     .customoverlay {
@@ -292,9 +297,9 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 
 var map = new kakao.maps.Map(mapContainer, mapOption);
 
-var imageSrc = 'img/ping.png', // 마커이미지의 주소입니다    
-    imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
-    imageOption = {offset: new kakao.maps.Point(28, 70)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+var imageSrc = 'img/ping5.png', // 마커이미지의 주소입니다    
+    imageSize = new kakao.maps.Size(44, 69), // 마커이미지의 크기입니다
+    imageOption = {offset: new kakao.maps.Point(20, 70)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
 
 // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
 var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),

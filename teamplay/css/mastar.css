@@ -747,7 +747,9 @@ a{
     left: 1770px;
     cursor: pointer;
 }
-
+.sec4-closebtn:hover{
+    opacity: 90%;
+}
 .sec4-pop{
     width: 1200px;
     height: 800px;
@@ -758,6 +760,7 @@ a{
 .sec4-pop img{
     width: 1200px;
     height: 800px;
+    cursor: pointer;
 }
 .sec4-h-1{
     display: none;
@@ -815,7 +818,9 @@ a{
     padding:12px 10px;
     cursor: pointer;
 }
-
+.sec4-images img:hover{
+    opacity: 80%;
+}
 @media (max-width: 767px){
     .sec4-txt h1{
         -webkit-transition: all .5s ease;
@@ -880,6 +885,8 @@ a{
     }
 }
 /* section04 media end */
+
+
 /* section04 end */
 #section05{
     width: 100%;
@@ -909,7 +916,7 @@ a{
     position: relative;
     width: 1240px;
     height: 540px;
-    border: .5px solid #0b3102;
+    border: 1px solid #0b3102;
     margin: 0 auto;
 }
 #map{
@@ -929,7 +936,7 @@ a{
     position: relative;
     margin: 0 auto;
     top: 200px;
-    padding-left: 180px;
+    padding-left: 160px;
 }
 /* 하단영역 크기조절 */
 .sec5-address{

@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.all{
+  width: 1198px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+
+
+
+.header_box {
+  width: 1198px;
+  height: 100px;
+  position: relative;
+}
+
+.top_logo {
+  float: left;
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/*------네비------*/
+.navi_box {
+  position: absolute;
+  width: 600px;
+  height: 150px;
+  left: 590px;
+  margin: 60px 10px 0 0;
+  z-index: 1;
+}
+
+/*------네비상위메뉴------*/
+.menu {
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 0;
+  background: #3cb149;
+}
+
+.menu>a {
+  position: relative;
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 1rem;
+  transition: 0.5s;
+  color: white;
+}
+
+.menu:hover>a {
+  background: #434748;
+  color: #3cb149;
+  font-weight: 800;
+}
+
+/*------네비하위메뉴------*/
+.navi_box_bg {
+  display: none;
+  position: absolute;
+  width: 1200px;
+  height: 110px;
+  top: 40px;
+  left: -590px;
+  z-index: 1;
+  background: #434748;
+  overflow: hidden;
+}
+
+.submenu_box {
+  display: none;
+  position: absolute;
+  top: 40px;
+  padding: 10px 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.submenu_box>a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 10pt;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submenu_box>a:hover {
+  background: white;
+  color: #333333;
+  font-weight: bold;
+}
+/* navi */
+
+.slider{
+  width: 1198px;
+  height: 300px;
+  overflow: hidden;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.slider-wrap{
+  display: flex;
+  overflow: hidden;
+}
+.slider-wrap img{
+  width: 1198px;
+  height: 300px;
+  display: block;
+  position: relative;
+  float: left;
+}
+/* slider */
+
+.contents{
+  width: 1198px;
+  height: 200px;
+  float: left;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.conts1{
+  width: 398px;
+  float: left;
+  margin-top: 16px;
+  border-right: 1px solid #000;
+}
+.conts1-tab{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background: #3cb149;
+  margin-left: 38px
+}
+.conts1-tab p{
+  padding-top: 4px;
+}
+.conts1-text{
+  width: 340px;
+  height: 130px;
+  border: 1px solid #000;
+  margin-left: 28px;
+}
+.conts1-text li{
+  margin: 5px 10px 0 10px;
+  line-height: 24px;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+/* 공지사항 */
+.conts2{
+  float: left;
+  width: 398px;
+  margin-top: 16px;
+  border-right: .5px solid #000;
+}
+.conts2-tab{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background: #3cb149;
+  margin-left: 38px
+}
+.conts2-tab p{
+  padding-top: 4px;
+}
+.conts2-text{
+  width: 340px;
+  height: 130px;
+  border: 1px solid #000;
+  margin-left: 28px;
+}
+.conts2-text img{
+  margin-top: 24px;
+  margin-left: 22px;
+  width: 80px;
+  height: 80px;
+}
+/* 갤러리 */
+.conts3{
+  float: left
+  width: 398px;
+}
+/* 배너 */
+
+
+.bottom{
+  width: 1198px;
+  height: 99px;
+  display: flex;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+  float: left;
+}
+
+.bottom-conts1{
+  width: 199px;
+  height: 99px;
+  background: #3cb149;
+  border-right: 1px solid #000;
+}
+
+.bottom-conts1 img{
+  padding-top: 30px;
+}
+/* 하단 로고 */
+.bottom-conts2{
+  width: 799px;
+  height: 99px;
+  text-align: center;
+  border-right: 1px solid #000;
+}
+.bottom-conts2 p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+/* 하단 Copyright */
+.bottom-conts3{
+  width: 200px;
+  height: 99px;
+}
+.bottom-conts3 img{
+  margin: 30px 4px 0px 22px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+/* 하단 패밀리사이트 */
+
+
+.popup{
+  width: 400px;
+  height: 260px;
+  background: white;
+  border: 1px solid #000;
+  position: fixed;
+  top: 200px;
+  left: 759px;
+  display: none;
+}
+.popup-title{
+  border-bottom: 1px solid #000;
+}
+.popup-text ul{
+  line-height: 24px;
+  margin:  0px 10px;
+}
+.popup-text li{
+  border-bottom: 1px solid #000;
+}
+.close{
+  position: relative;
+  left: 340px;
+  top: 60px;
+}
