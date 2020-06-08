@@ -273,7 +273,12 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .sec2_txt2 img{
+        width: 32px;
+        height: 32px;
+        padding-top: 20px;
     }
     .sec2_txt2>h1{
         -webkit-transition: all .5s ease;
@@ -281,7 +286,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-top: 10px;
+        padding-top: 0px;
     }
     .sec2_img img{
         -webkit-transition: all .5s ease;
@@ -289,9 +294,9 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 70%;
-        height: 360px;
-        top: -150px;
+        width: 80%;
+        height: 300px;
+        top: -40px;
         left: 30px;
         border: 2px solid #0b3102;
     }
@@ -301,9 +306,9 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        top: 280px;
+        top: 380px;
         left: 30px;
-        width: 424px;
+        width: 290px;
     }
     .sec2_cont2{
         -webkit-transition: all .5s ease;
@@ -512,7 +517,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        font-size: 40px;
+        font-size: 32px;
         top: 68px;
     }
     .sec3_line1{
@@ -532,8 +537,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 40px;
-        width: 402px;
+        padding-left: 20px;
+        width: 310px;
         height: auto;
     }
     .sec3_main_img1{
@@ -542,8 +547,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_main_img2{
         -webkit-transition: all .5s ease;
@@ -551,8 +556,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_txt_box1{
         -webkit-transition: all .5s ease;
@@ -580,8 +585,9 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 40px;
-        width: 402px;
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 310px;
         height: auto;
     }
     .sec3_main_img3{
@@ -590,8 +596,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_main_img4{
         -webkit-transition: all .5s ease;
@@ -599,8 +605,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_txt_box2{
         -webkit-transition: all .5s ease;
@@ -627,8 +633,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 40px;
-        width: 402px;
+        padding-left: 20px;
+        width: 310px;
         height: auto;
     }
     .sec3_main_img5{
@@ -637,8 +643,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_main_img6{
         -webkit-transition: all .5s ease;
@@ -646,8 +652,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_txt_box3{
         -webkit-transition: all .5s ease;
@@ -675,8 +681,9 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-left: 40px;
-        width: 402px;
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 310px;
         height: auto;
     }
     .sec3_main_img7{
@@ -685,8 +692,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_main_img8{
         -webkit-transition: all .5s ease;
@@ -694,8 +701,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 196px;
-        height: 196px;
+        width: 145px;
+        height: 145px;
     }
     .sec3_txt_box4{
         -webkit-transition: all .5s ease;
@@ -831,7 +838,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        font-size: 40px;
+        font-size: 36px;
     }
     .sec4-txt{
         -webkit-transition: all .5s ease;
@@ -847,8 +854,10 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 200px;
-        height: 200px;
+        width: 145px;
+        height: 145px;
+        padding: 5px 2.5px;
+        margin: 0;
     }
     .sec4-images{
         -webkit-transition: all .5s ease;
@@ -856,7 +865,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 460px;
+        width: 340px;
         height: auto;
         padding: 0;
         margin: 0;
@@ -868,10 +877,10 @@ a{
         height: 1080px;
     }
     .sec4-closebtn{
-        width: 30px;
-        height: 30px;
-        top:420px;
-        left: 430px;
+        width: 20px;
+        height: 20px;
+        top:400px;
+        left: 300px;
     }
     
     .sec4-pop{
@@ -880,11 +889,8 @@ a{
         top: 420px
     }
     .sec4-pop img{
-        width: 300px;
-        height: 300px;
-    }
-    .sec4-9,.sec4-10{
-        display: none;
+        width: 290px;
+        height: 290px;
     }
 }
 /* section04 media end */
@@ -1044,7 +1050,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        font-size: 40px;
+        font-size: 36px;
     }
     .sec5-info{
         -webkit-transition: all .5s ease;
@@ -1052,14 +1058,14 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 1200px;
+        width: 320px;
         height: auto;
         display: flex;
         justify-content: space-between;
         position: relative;
-        margin: 0 auto;
-        top: 200px;
-        padding-left: 180px;
+        top: 150px;
+        left: -130px;
+        
     }
     .map-container{
         -webkit-transition: all .5s ease;
@@ -1068,8 +1074,8 @@ a{
         -o-transition: all .5s ease;
         transition: all .5s ease;
         top: 120px;
-        width: 420px;
-        height: 420px;
+        width: 320px;
+        height: 320px;
         border: .5px solid #0b3102;
     }
     #map{
@@ -1078,26 +1084,17 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 380px;
-        height: 380px;
+        width: 280px;
+        height: 280px;
     }
-    .sec5-info{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-        width: 420px;
-        top: 120px;
-        padding-left: 20px;
-    }
+    
     .sec5-address{
         -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 200px;
+        width:150px;
     }
     .sec5-address h2{
         -webkit-transition: all .5s ease;
@@ -1113,7 +1110,10 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        width: 200px;
+        width: 150px;
+    }
+    .sec5-open-txt2{
+        padding: 10px 0 0;
     }
     .sec5-bus{
         -webkit-transition: all .5s ease;
@@ -1124,7 +1124,7 @@ a{
         display: inline-block;
         position: absolute;
         width: 100%;
-        top: 130px;
+        top: 180px;
     }
     .sec5-bus2{
         -webkit-transition: all .5s ease;
@@ -1140,8 +1140,8 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        font-size: 6px;
-        top: 420px;
+        font-size: 4px;
+        top: 480px;
     }
 }
 /* section5 media end */
