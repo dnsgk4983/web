@@ -1065,6 +1065,7 @@ a{
         position: relative;
         top: 150px;
         left: -130px;
+        padding-left: 150px;
         
     }
     .map-container{
@@ -1111,6 +1112,7 @@ a{
         -o-transition: all .5s ease;
         transition: all .5s ease;
         width: 150px;
+        padding-left: -10px;
     }
     .sec5-open-txt2{
         padding: 10px 0 0;
@@ -1123,8 +1125,16 @@ a{
         transition: all .5s ease;
         display: inline-block;
         position: absolute;
-        width: 100%;
+        width: 320px;
         top: 180px;
+    }
+    .sec5-bus1{
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        width: 320px;
     }
     .sec5-bus2{
         -webkit-transition: all .5s ease;
@@ -1132,6 +1142,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
+        width: 320px;
         top: 30px;
     }
     .sec5-bottom{
