@@ -27,26 +27,26 @@ a{
     z-index: 100000;
 }
 .menu_btn{
-    top: 40px;
-    right: 50px ;
+    top: 5%;
+    right: 3% ;
     color:#0b3102;
-    font-size: 120px;
+    font-size: 5rem;
     cursor: pointer;
     position: fixed;
 }
 
 .close_btn{
-    top: 40px;
-    right: 60px;
+    top: 6%;
+    right: 3%;
     color:#82b561;
-    font-size: 120px;
+    font-size: 5rem;
     cursor: pointer;
     position: fixed;
     display: none;
 }
 .cont{
     width: 100%;
-    height: 1080px;
+    height: 100%;
     position: absolute;
     text-align: center;
     z-index: 99999;
@@ -55,18 +55,17 @@ a{
     display: none;
 }
 .nav{
-    position: absolute;
+    padding-top: 13%;
     line-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 30%;
-    left: 45%;
+    margin: 0 auto;
 }
 .nav a{
     font-family: 'GyeonggiBatang';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #ebf2e1;
 }
@@ -89,7 +88,8 @@ a{
         -o-transition: all .5s ease;
         transition: all .5s ease;
         font-size: 30px;
-        right: 20px;
+        top: 1%;
+        
     }
     .close_btn{
         -webkit-transition: all .5s ease;
@@ -98,7 +98,8 @@ a{
         -o-transition: all .5s ease;
         transition: all .5s ease;
         font-size: 30px;
-        right: 25px;
+        top: 1.2%;
+        right: 3.5%;
     }
     .nav{
         -webkit-transition: all .5s ease;
@@ -106,8 +107,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        top: 16%;
-        left: 37%;
+        padding-top: 44%;
     }
     .nav>li>a{
         font-size: 16px;
@@ -169,56 +169,57 @@ a{
 .container2{
     width: 100%;
     height: 1080px;
+    margin: 0 auto;
 }
 .sec2_cont1{
     display: flex;
     position: relative;
-    top: 120px;
+    top: 10%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .sec2_txt1{
     display: flex;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'GyeonggiBatang';
     color: #82b561;
 }
 .sec2_txt1 img{
-    width: 30px;
-    height: 30px;
-    padding: 0 12px 0 0;
+    width: 8%;
+    height: 8%;
+    padding: 0 16px 0 0;
 }
 .sec2_txt2{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'GyeonggiBatang';
     color: #0b3102;
     display: flex;
 }
 .sec2_txt2 img{
-    padding: 32px 0 0 12px;
+    padding: 32px 0 0 16px;
     width: 48px;
     height: 48px;
 }
 /* sec2_cont1 */
 .sec2_cont2{
     position: relative;
-    top: 280px;
+    top: 20%;
     display: flex;
 }
 .sec2_box{
     position: absolute;
-    left: 340px;
-    width: 418px;
-    height: 418px;
+    left: 22%;
+    width: 21%;
+    height: 130%;
     border: 2px solid #0b3102;
 }
 .sec2_img img{
     position: absolute;
     display: block;
-    top: 30px;
-    left: 370px;
-    width: 420px;
+    top: 10%;
+    left: 24%;
+    width: 21%;
     height: 420px;
 }
 .img2{
@@ -229,8 +230,8 @@ a{
 }
 .sec2_sub img{
     position: relative;
-    top: 58px;
-    left: 1200px;
+    top: 18%;
+    left: 240%;
     width: 420px;
     height: auto;
 }
@@ -256,7 +257,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        font-size: 20px;
+        font-size: 16px;
     }
     .sec2_txt1 h2{
         -webkit-transition: all .5s ease;
@@ -264,7 +265,7 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        padding-top: 6px;
+        padding-top: 3px;
     }
     .sec2_txt2{
         -webkit-transition: all .5s ease;
@@ -288,7 +289,9 @@ a{
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
-        top: -180px;
+        width: 70%;
+        height: 360px;
+        top: -150px;
         left: 30px;
         border: 2px solid #0b3102;
     }
@@ -344,7 +347,7 @@ a{
     z-index: 5555;
     font-family: 'GyeonggiBatang';
     color: #0b3102;
-    font-size: 48px;
+    font-size: 3rem;
 }
 .swiper-container {
     width: 100%;
@@ -402,8 +405,8 @@ a{
     background-size: cover;
 }
 .sec3_txt_box1{
-    line-height: 32px;
-    padding: 60px 0 0 40px;
+    line-height: 2rem;
+    padding: 4% 0 0 2%;
 }
 
 .sec3_line2{
@@ -433,7 +436,7 @@ a{
 }
 .sec3_txt_box2{
     line-height: 32px;
-    padding: 60px 40px 0 0px;
+    padding: 4% 2% 0 0px;
 }
 /* slider1 end */
 .slider2{
@@ -470,7 +473,7 @@ a{
 }
 .sec3_txt_box3{
     line-height: 32px;
-    padding: 60px 0 0 40px;
+    padding: 4% 0 0 2%;
 }
 .sec3_line4{
     width: 80%;
@@ -499,7 +502,7 @@ a{
 }
 .sec3_txt_box4{
     line-height: 32px;
-    padding: 60px 40px 0 0px;
+    padding: 4% 2% 0 0px;
 }
 /* slide2 end */
 @media (max-width: 767px){
@@ -740,11 +743,11 @@ a{
     z-index: 9;
 }
 .sec4-closebtn{
-    width: 60px;
-    height: 60px;
+    width: 4rem;
+    height: 4rem;
     position: relative;
     top:74px;
-    left: 1770px;
+    left: 94%;
     cursor: pointer;
 }
 .sec4-closebtn:hover{

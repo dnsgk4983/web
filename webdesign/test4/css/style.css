@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+    background: springgreen;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+.top{
+    width: 1198px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99999;
+    border: 1px solid #000;
+}
+.top-logo{
+    width: 198px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+
+}
+.nav-bg{
+    display: none;
+    width: 1198px;
+    height: 162px;
+    position: absolute;
+    top: 100px;
+    background: teal;
+    border: 1px solid #000;
+}
+.navi{
+    width: 600px;
+    height: 50px;
+    background: beige;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-weight: 800;
+    
+}
+.navi>li{
+    width: 150px;
+    padding-top: 14px;
+    transition: 0.5s;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+.navi>li:hover{
+    background: teal;
+    color: white;
+}
+.subbox{
+    display: none;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    color: white;
+}
+.submenu>li{
+    width: 150px;
+    height: 40px;
+    padding-top:14px;
+    transition: 0.5s;
+}
+.submenu>li:hover{
+    background-color: beige;
+    color: #000;
+    font-weight: 800;
+}
+/* top nav end */
+.slider{
+    width: 1198px;
+    height: 300px;
+    overflow: hidden;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    z-index: 500;
+}
+.slider-wrap img{
+    width: 1200px;
+    height: 300px;
+}
+/* slider end */
+.contents{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+.cont1{
+    width: 398px;
+    height: 198px;
+    border: 1px solid #000;
+}
+.cont1-title{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+.cont1-text{
+    font-size: 14px;
+    width: 360px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-top: none;
+}
+.cont1-text h3{
+    margin: 0 10px;
+    font-weight: 400;
+}
+.cont2{
+    width: 398px;
+    height: 198px;
+    border: 1px solid #000;
+}
+.cont2-title{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background: burlywood;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+.cont2-img{
+    width: 360px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #000;
+    display: flex;
+}
+.cont2-img img{
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+.cont3{
+    width: 400px;
+    border: 1px solid #000;
+}
+.cont3 img{
+    width: 380px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* section end */
+.bottom-contents{
+    border: 1px solid #000;
+    border-top: none;
+    width: 1198px;
+    height: 100px;
+    display: flex;
+}
+.bottom-cont1{
+    width: 1000px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.bottom-con1{
+    height: 35px;
+    border-bottom: 1px solid #000;
+    padding-top: 15px;
+    font-weight: 800;
+}
+.bottom-con2{
+    height: 35px;
+    padding-top: 15px;
+    font-weight: 800;
+}
+.bottom-cont2{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#family{
+    width: 140px; 
+    height: 20px;
+
+}
+/* footer end */
+
+.popup{
+    display: none;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: white;
+    position: relative;
+    top: -450px;
+    left: 350px;
+}
+.pop-bg{
+    width: 480px;
+    height: 280px;
+    background-color: chocolate;
+    margin: 10px 0 0 10px;
+}
+.pop-title{
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+}
+.pop-text{
+    margin-top: 10px;
+}
+.pop-text p{
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+    margin: 0 10px;
+}
+.close{
+    position: relative;
+    top: -40px;
+    left: 420px;
+    width: 60px;
+    height: 30px;
+}
