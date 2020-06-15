@@ -1,0 +1,17 @@
+$(function(){
+    setInterval(function(){
+        $(".slider-wrap").delay("2500");
+        $(".slider-wrap").animate({marginLeft:"-1198"},"500");
+        $(".slider-wrap").delay("2500");
+        $(".slider-wrap").animate({marginLeft:"-2396"},"500");
+        $(".slider-wrap").delay("2500");
+        $(".slider-wrap").animate({marginLeft:"0"},"500");
+    });
+    $(".navi").mouseover(function(){
+        $(".subbox").stop().slideDown();
+        $(".subbox").css("display","flex")
+    });
+    $(".navi").mouseleave(function(){
+        $(".subbox").stop().slideUp();
+    });
+});

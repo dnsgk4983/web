@@ -87,7 +87,7 @@ li{
     overflow: hidden;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
-    z-index: 500;
+    z-index: 300;
 }
 .slider-wrap img{
     width: 1200px;

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #222328;
+    text-decoration: none;
+    list-style: none;
+}
+.all{
+    width: 1198px;
+    height: 698px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+.top{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.logo{
+    width: 199px;
+    border-right: 1px solid #000;
+    cursor: pointer;
+}
+.logo>img{
+    margin-top: 30px;
+}
+/* logo */
+.navi-bg{
+    display: none;
+    width: 1200px;
+    height: 120px;
+    background-color: skyblue;
+    position: absolute;
+    top: 99px;
+    left: 0;
+    z-index: 1;
+}
+.mainmenu{
+    display: flex;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.mainmenu>li{
+    padding-top: 5px;
+    width: 150px;
+    height: 25px;
+    border: 1px solid #000;
+    border-right: none;
+    border-bottom: none;
+}
+.mainmenu>li:last-child{
+    border-right: 1px solid #000;
+}
+.mainmenu>li:hover{
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+}
+.subbox{
+    position: relative;
+    display: none;
+    text-align: center;
+    margin-top: -2px;
+    z-index: 999;
+}
+.submenu>li{
+    width: 151px;
+    height: 25px;
+    padding-top: 5px;
+}
+.submenu>li:hover{
+    background-color: white;
+    font-weight: bold;
+}
+/* nav */
+.slide{
+    width: 1198px;
+    height: 300px;
+    overflow: hidden;
+}
+.slide-wrap{
+    display: flex;
+    width: 3594px;
+    overflow: hidden;
+}
+.slide-wrap>img{
+    width: 1198px;
+    height: 300px;
+}
+/* slide */
+.contents{
+    width: 1198px;
+    height: 200px;
+}
+.conts1{
+    width: 399px;
+    height: 199px;
+    border-right: 1px solid #000;
+}
+.conts1-title{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.conts1-text{
+    margin-left: 10px;
+    width: 379px;
+    height: 120px;
+    font-size: 14px;
+    border: 1px solid #000;
+}
+.conts1-text>h3{
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+    margin: 0 10px;
+    margin-top: 5px;
+}

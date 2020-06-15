@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.top{
+    width: 1198px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.logo{
+    width: 199px;
+    border-right: 1px solid #000;
+}
+.logo>img{
+    margin-top: 30px;
+}
+.nav-bg{
+    display: none;
+    width: 1199px;
+    height: 86px;
+    background-color: tomato;
+    position: absolute;
+    top: 99px;
+    left: 0px;
+    z-index: 1;
+}
+.mainmenu{
+    display: flex;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.mainmenu>li{
+    width: 149px;
+    height: 25px;
+    padding-top: 5px;
+    border: 1px solid #000;
+    border-right: none;
+    border-bottom: none;
+}
+.mainmenu>li:last-child{
+    border-right: 1px solid #000;
+}
+.mainmenu>li:hover{
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
+.submenu_box{
+    position: relative;
+    z-index: 999;
+    display: none;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+    margin-top: -2px;
+    
+}
+.submenu>li{
+    width: 150px;
+    height: 25px;
+    margin-top: -2px;
+    padding-top: 5px;
+}
+.submenu>li:hover{
+    background-color: white;
+    color: tomato;
+    font-weight: bold;
+}
+
+/* top */
+.slide{
+    width: 1198px;
+    height: 300px;
+    overflow: hidden;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.slide-wrap{
+    display: flex;
+    width: 3600px;
+    overflow: hidden;
+}
+.slide-wrap>img{
+    width: 1200px;
+    height: 300px;
+}
+/* slide */
+.contents{
+    width: 1200px;
+    height: 198px;
+    display: flex;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.conts1{
+    width: 399px;
+    border-left:1px solid #000;
+}
+.conts1-title{
+    width: 100px;
+    height: 27px;
+    font-size: 12px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.conts1-text{
+    width: 379px;
+    height: 120px;
+    font-size: 12px;
+    margin-left: 10px;
+    border: 1px solid #000;
+    
+}
+.conts1-text>h2{
+    padding-top:3px;
+    border-bottom: 1px solid #000;
+    margin: 1px 10px 0 10px ;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.conts2{
+    width: 398px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.conts2-title{
+    width: 100px;
+    height: 27px;
+    font-size: 12px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+.conts2-image{
+    width: 379px;
+    height: 120px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.conts2-image>img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.conts3{
+    width: 399px;
+    border-right: 1px solid #000;
+}
+.conts3>img{
+    margin: 10px 10px;
+    width: 379px;
+    height: 180px;
+    cursor: pointer;
+}
+.foot-area{
+    width: 1198px;
+    height: 99px;
+    display: flex;
+    background-color: darkkhaki;
+    border: 1px solid #000;
+    border-top: none;
+}
+.foot1{
+    width: 198px;
+    border-right: 1px solid #000;
+}
+.foot1>img{
+    margin-top: 30px;
+}
+.foot2{
+    width: 800px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.foot3{
+    width: 198px;
+    border-left: 1px solid #000;
+}
+#family{
+    width: 100px;
+}
+.popup{
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 200px;
+    left: 350px;
+    border: 1px solid #000;
+    background-color: white;
+}
+.pop-bg{
+    width: 480px;
+    height: 280px;
+    background-color: tomato;
+    margin: 10px 10px;
+}
+.pop-title{
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+.pop-text>h2{
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+    margin: 0 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.close{
+    width: 60px;
+    position: absolute;
+    top: 250px;
+    left: 410px;
+}

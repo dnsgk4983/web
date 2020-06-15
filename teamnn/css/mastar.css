@@ -33,6 +33,11 @@ a{
     font-size: 5rem;
     cursor: pointer;
     position: fixed;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .close_btn{
@@ -43,6 +48,11 @@ a{
     cursor: pointer;
     position: fixed;
     display: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .cont{
     width: 100%;
@@ -62,6 +72,11 @@ a{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .nav a{
     font-family: 'GyeonggiBatang';
@@ -82,31 +97,15 @@ a{
 @media (max-width: 767px){
     
     .menu_btn{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
         font-size: 30px;
         top: 1%;
-        
     }
     .close_btn{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
         font-size: 30px;
         top: 1.2%;
         right: 3.5%;
     }
     .nav{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
         padding-top: 44%;
     }
     .nav>li>a{
@@ -137,6 +136,11 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .section01_opacity{
     width: 100%;
@@ -148,11 +152,6 @@ a{
 }
 @media (max-width: 767px){
     .main_logo img{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
         width: 264px;
         height: 157px;
     }
@@ -178,17 +177,34 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .sec2_txt1{
     display: flex;
     font-size: 1.5rem;
     font-family: 'GyeonggiBatang';
     color: #82b561;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .sec2_txt1 img{
     width: 8%;
     height: 8%;
     padding: 0 16px 0 0;
+}
+.sec2_txt1 h2{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
 }
 .sec2_txt2{
     font-size: 1.5rem;
@@ -244,27 +260,14 @@ a{
         display: none;
     }
     .sec2_cont1{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
         top: 60px;
     }
     .sec2_txt1{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
+        
         font-size: 16px;
     }
     .sec2_txt1 h2{
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
+        
         padding-top: 3px;
     }
     .sec2_txt2{
