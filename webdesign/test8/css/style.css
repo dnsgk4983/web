@@ -94,7 +94,9 @@
 /* slide */
 .contents{
     width: 1198px;
-    height: 200px;
+    height: 199px;
+    display: flex;
+    border-bottom: 1px solid #000;
 }
 .conts1{
     width: 399px;
@@ -109,7 +111,7 @@
     border: 1px solid #000;
     cursor: pointer;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .conts1-text{
     margin-left: 10px;
@@ -117,6 +119,7 @@
     height: 120px;
     font-size: 14px;
     border: 1px solid #000;
+    margin-left: 10px;
 }
 .conts1-text>h3{
     font-weight: 400;
@@ -124,4 +127,121 @@
     border-bottom: 1px solid #000;
     margin: 0 10px;
     margin-top: 5px;
+}
+.conts2{
+    width: 400px;
+    height: 199px;
+}
+.conts2-title{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.conts2-image{
+    width: 379px;
+    height: 120px;
+    border: 1px;
+    margin-left: 10px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+.conts2-image>img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.conts3{
+    width: 399px;
+    height: 199px;
+    border-left: 1px solid #000;
+}
+.conts3>img{
+    width: 379px;
+    height: 179px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+/* section */
+.foot-area{
+    width: 1198px;
+    height: 99px;
+    background-color: skyblue;
+    border-bottom: 1px solid #000;
+    display: flex;
+}
+.foot1{
+    width: 999px;
+    height: 99px;
+    border-right: 1px solid #000;
+}
+.menu{
+    width: 999px;
+    height: 49px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu>p{
+    margin: 0px 20px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.copy{
+    width: 999px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.foot2{
+    width: 199px;
+    height: 99px;
+}
+#family{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+}
+.popup{
+    top: 250px;
+    left: 350px;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #000;
+}
+.pop-bg{
+    width: 480px;
+    height: 280px;
+    background-color: turquoise;
+    margin: 10px 10px;
+}
+.pop-title{
+    border-bottom: 1px solid #000;
+}
+.pop-text{
+    padding-top: 5px;
+}
+.pop-text>h3{
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    top: 240px;
+    left: 420px;
 }
