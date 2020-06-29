@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'GmarketSansMedium'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.sonata-img{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/sonata-1.jpg');
+    background-position: bottom center;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    top: 8%;
+    left: 36%;
+}
+.logo img{
+    width: 36%;
+    transition: all 0.5s;
+}
+.logo img:hover{
+    width: 38%;
+}
+.text-item{
+    height: 48vh;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 14%;
+    color: white;
+    font-family: 'GmarketSansMedium'; 
+}
+.main-title{
+    margin-top: 8%;
+}
+.main-title>p{
+    font-size: 36px;
+}
+.main-title strong{
+    font-size: 36px;
+    color: #4476e0;
+}
+.sub-title{
+    margin-top: 2%;
+}
+.sub-title strong{
+    font-size: 48px;
+}
+.main-foot{
+    margin-top: 4%;
+}
+.main-foot>p{
+    font-size: 12px;
+}
+/* section01 */
+.section02-bg{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bg-gray.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.section02-title{
+    font-family: 'GmarketSansMedium';
+    margin-top: 150px;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+.tab-car-img{
+    height: 40vh;
+}
+.tab-car-img img{
+    width: 70%;
+}
+.section02-sub{
+    margin-top: 100px;
+}
+.tab-car-text h1{
+    color: white;
+}
+.tab-car-color-text>ul>li{
+    list-style: none;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.tab-car-input{
+    margin-top: 15%;
+    font-family: 'GmarketSansMedium'; 
+}
+.tab-car-color-text>ul{
+    display: flex;
+}
+.wc9{
+    background-color: snow;
+}
+.r2t{
+    background-color: silver;
+    opacity: 0.2;
+}
+.nt2{
+    background-color: #5e6062;
+    opacity: 0.2;
+}
+.t2g{
+    background-color: #454a4e;
+    opacity: 0.2;
+}
+.xb2{
+    background-color: #2e3641;
+    opacity: 0.2;
+}
+.nb9{
+    background-color: #141418;
+    opacity: 0.2;
+}
+.y2e{
+    background-color: #a21825;
+    opacity: 0.2;
+}
+#r2t,#nt2,#t2g,#xb2,#nb9,#y2e{
+    display: none;
+}
+#r2t-t,#nt2-t,#t2g-t,#xb2-t,#nb9-t,#y2e-t{
+    display: none;
+}
+/* section02 */
+.section03{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f3f2;
+    position: relative;
+}
+.section03-title{
+    margin-top: 3%;
+}
+.section03-title>h1{
+    font-weight: bold;
+    font-family: 'GmarketSansMedium'; 
+}
+.section03-main{
+    margin-bottom: 3%;
+}
+.section03-comment{
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+.section03-modal>img{
+    width: 100%;
+    height: 50vh;
+}
+.modal-img{
+    position: relative;
+}
+.cushion{
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    background-color: #4476e0;
+    height: 2.5%;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #fff;
+    animation: 1s ease .6s infinite;
+}
+#myModal1{
+    margin-top: 9.8%;
+}
+.modal1{
+    display: flex;
+    flex-direction: column;
+}
+.modal1-text{
+    height: 19.2vh;
+    background-color: white;
+}
+.modal1-title{
+    margin-top: 8%;
+}
+.modal1-input{
+    margin: 0 20%;
+}
