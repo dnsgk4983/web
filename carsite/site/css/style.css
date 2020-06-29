@@ -78,7 +78,7 @@
 }
 */
 .tab-car-img img{
-    margin-top: -50px;
+    margin-top: -20px;
     width: 60%;
 }
 
@@ -173,7 +173,21 @@
     height: 2.5%;
     border-radius: 100%;
     box-shadow: 0 0 5px #fff;
-    animation: 1s ease .6s infinite;
+    -webkit-animation:cushion 0.6s ease-in-out infinite alternate;
+    -moz-animation:cushion 0.6s ease-in-out infinite alternate;
+    animation:cushion 0.6s ease-in-out infinite alternate;
+}
+@-webkit-keyframes cushion{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes cushion{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes cushion{
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 #myModal1{
     margin-top: 9.8%;
@@ -204,7 +218,21 @@
     background-color: #4476e0;
     border-radius: 100%;
     box-shadow: 0 0 5px #fff;
-    animation: 1s ease .6s infinite;
+    -webkit-animation:lamp 0.6s ease-in-out infinite alternate;
+    -moz-animation:lamp 0.6s ease-in-out infinite alternate;
+    animation:lamp 0.6s ease-in-out infinite alternate;
+}
+@-webkit-keyframes lamp{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes lamp{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes lamp{
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 #myModal2{
     margin-top: 9.8%;
@@ -219,7 +247,109 @@
 }
 .modal2-title{
     margin-top: 5%;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'GmarketSansMedium'; 
 }
 .modal2-input{
     margin: 0 20%;
+}
+/* modal2 */
+.cover{
+    position: absolute;
+    top: 48%;
+    left: 76%;
+    height: 2.5%;
+    background-color: #4476e0;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #fff;
+    -webkit-animation:cover 0.6s ease-in-out infinite alternate;
+    -moz-animation:cover 0.6s ease-in-out infinite alternate;
+    animation:cover 0.6s ease-in-out infinite alternate;
+}
+@-webkit-keyframes cover{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes cover{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes cover{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+#myModal3{
+    margin-top: 9.8%;
+}
+.modal3{
+    display: flex;
+    flex-direction: column;
+}
+.modal3-text{
+    height: 19.2vh;
+    background-color: white;
+}
+.modal3-title{
+    margin-top: 12%;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'GmarketSansMedium'; 
+}
+.modal3-input{
+    margin: 0 20%;
+}
+/* modal3 */
+.sheet{
+    position: absolute;
+    top: 59%;
+    left: 33%;
+    height: 2.5%;
+    background-color: #4476e0;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #fff;
+    -webkit-animation:sheet 0.6s ease-in-out infinite alternate;
+    -moz-animation:sheet 0.6s ease-in-out infinite alternate;
+    animation:sheet 0.6s ease-in-out infinite alternate;
+}
+@-webkit-keyframes sheet{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes sheet{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes sheet{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+#myModal4{
+    margin-top: 9.8%;
+}
+.modal4{
+    display: flex;
+    flex-direction: column;
+}
+.modal4-text{
+    height: 19.2vh;
+    background-color: white;
+}
+.modal4-title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'GmarketSansMedium'; 
+}
+/* modal4 */
+.section03-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.section03-footer p{
+    font-weight: bold;
+    font-family: 'GmarketSansMedium'; 
+    margin-top: 3%;
 }

@@ -160,4 +160,5 @@ $(function(){
         $(".nb9").css("opacity","0.2");
         $(".y2e").css("opacity","1");
     });
+    
 });
