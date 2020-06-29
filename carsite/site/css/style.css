@@ -189,3 +189,31 @@
 .modal1-input{
     margin: 0 20%;
 }
+/* modal1 */
+.lamp{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    height: 2.5%;
+    background-color: #4476e0;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #fff;
+    animation: 1s ease .6s infinite;
+}
+#myModal2{
+    margin-top: 9.8%;
+}
+.modal2{
+    display: flex;
+    flex-direction: column;
+}
+.modal2-text{
+    height: 19.2vh;
+    background-color: white;
+}
+.modal2-title{
+    margin-top: 5%;
+}
+.modal2-input{
+    margin: 0 20%;
+}
