@@ -85,8 +85,33 @@
 .section02-sub{
     margin-top: -150px;
 }
-.tab-car-text h1{
-    color: white;
+.section02-sub>div{
+    border-radius: 25px;
+    background-color: rgba(10,0,10,0.2);
+}
+.tab-car-text{
+    margin-top: 1%;
+}
+#wc9-t{
+    color: snow;
+}
+#r2t-t{
+    color: silver;
+}
+#nt2-t{
+    color: #656b72;
+}
+#t2g-t{
+    color: #454a4e;
+}
+#xb2-t{
+    color: #2e3641;
+}
+#nb9-t{
+    color: #141418;
+}
+#y2e-t{
+    color: #a21825;
 }
 .tab-car-color-text>ul>li{
     list-style: none;
@@ -94,7 +119,7 @@
     border: 1px solid #ccc;
     width: 50px;
     height: 50px;
-    margin: 10px 10px;
+    margin: 20px 10px 10px 10px;
     cursor: pointer;
 }
 .tab-car-input{
@@ -112,7 +137,7 @@
     opacity: 0.2;
 }
 .nt2{
-    background-color: #5e6062;
+    background-color: #656b72;
     opacity: 0.2;
 }
 .t2g{
@@ -167,7 +192,7 @@
 }
 .cushion{
     position: absolute;
-    top: 54%;
+    top: 53%;
     left: 40%;
     background-color: #4476e0;
     height: 2.5%;
@@ -212,7 +237,7 @@
 /* modal1 */
 .lamp{
     position: absolute;
-    top: 37%;
+    top: 35%;
     left: 30%;
     height: 2.5%;
     background-color: #4476e0;
@@ -257,7 +282,7 @@
 /* modal2 */
 .cover{
     position: absolute;
-    top: 48%;
+    top: 46%;
     left: 76%;
     height: 2.5%;
     background-color: #4476e0;
@@ -302,7 +327,7 @@
 /* modal3 */
 .sheet{
     position: absolute;
-    top: 59%;
+    top: 57%;
     left: 33%;
     height: 2.5%;
     background-color: #4476e0;
