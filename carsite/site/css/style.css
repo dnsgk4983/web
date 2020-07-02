@@ -87,7 +87,7 @@
 }
 .section02-sub>div{
     border-radius: 25px;
-    background-color: rgba(10,0,10,0.2);
+    border:2px solid rgba(10,0,10,0.5);
 }
 .tab-car-text{
     margin-top: 1%;
@@ -134,27 +134,27 @@
 }
 .r2t{
     background-color: silver;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .nt2{
     background-color: #656b72;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .t2g{
     background-color: #454a4e;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .xb2{
     background-color: #2e3641;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .nb9{
     background-color: #141418;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .y2e{
     background-color: #a21825;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 #r2t,#nt2,#t2g,#xb2,#nb9,#y2e{
     display: none;
