@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/hyundai_logo_mKk_icon.ico">
+    <title>HYUNDAI - SONATAS 2020</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.fullpage.min.js"></script>
+    <script src="js/scrolloverflow.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+    
+    <script>
+        $(document).ready(function(){
+            $('#fullpage').fullpage({
+                verticalCentered: true,
+                sectionsColor : ['#1bbc9b', '#488fc3', '#7BAABE','']
+            });
+        });
+    </script>
+</head>
+<style>
+    .section01{
+        width: 100%;
+        height: 900px;
+        background-color: #1bbc9b;0
+    }
+    .section02{
+        width: 100%;
+        height: 900px;
+        background-color: #488fc3;
+    }
+    .section03{
+        width: 100%;
+        height: 900px;
+        background-color: #7baabe;
+    }
+</style>
+<body>
+<section id="fullpage">
+    <tr>
+        <td><input type="button" value="4"></td>
+        <td><input type="button" value="5"></td>
+        <td><input type="button" value="6"></td>
+        <td><input type="button" value="-"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1"></td>
+        <td><input type="button" value="2"></td>
+        <td><input type="button" value="3"></td>
+        <td><input type="button" value="*"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="0"></td>
+        <td><input type="button" value="%"></td>
+        <td><input type="button" value="/"></td>
+    </tr>
+
+    </div>
+</section>
+</body>
+</html>

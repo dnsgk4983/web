@@ -10,6 +10,11 @@
     padding: 0;
     font-size: 16px;
 }
+#fullpage{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
 .sonata-img{
     width: 100%;
     height: 100vh;
@@ -19,7 +24,7 @@
 }
 .logo{
     position: absolute;
-    top: 8%;
+    top: 1.5%;
     left: 36%;
 }
 .logo img{
@@ -59,12 +64,19 @@
     font-size: 12px;
 }
 /* section01 */
+#section2{
+    position: relative;
+}
 .section02-bg{
     width: 100%;
     height: 100vh;
-    background: url('../images/bg-gray.jpg');
+    /* background: url('../images/bg-gray.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background: -webkit-gradient(linear, top left, bottom left, from(#d2ad9a), to(#5f7995));
+    background: -webkit-linear-gradient(#d2ad9a, #5f7995);
+    background: linear-gradient(#d2ad9a,#5f7995);
+	
 }
 .section02-title{
     font-family: 'GmarketSansMedium';
@@ -87,7 +99,7 @@
 }
 .section02-sub>div{
     border-radius: 25px;
-    border:2px solid rgba(10,0,10,0.5);
+    border:2px solid rgba(10,0,10,1);
 }
 .tab-car-text{
     margin-top: 1%;
@@ -99,7 +111,7 @@
     color: silver;
 }
 #nt2-t{
-    color: #656b72;
+    color: #81868e;
 }
 #t2g-t{
     color: #454a4e;
@@ -137,7 +149,7 @@
     opacity: 0.4;
 }
 .nt2{
-    background-color: #656b72;
+    background-color: #81868e;
     opacity: 0.4;
 }
 .t2g{
@@ -163,7 +175,7 @@
     display: none;
 }
 /* section02 */
-.section03{
+#section3{
     width: 100%;
     height: 100vh;
     background-color: #f6f3f2;
@@ -179,6 +191,9 @@
 .section03-main{
     margin-bottom: 2%;
 }
+.section03-sub{
+    font-size: 18px;
+}
 .section03-comment{
     font-size: 16px;
     margin-bottom: 3%;
@@ -192,10 +207,10 @@
 }
 .cushion{
     position: absolute;
-    top: 53%;
+    top: 61%;
     left: 40%;
-    background-color: #4476e0;
     height: 2.5%;
+    background-color: #4476e0;
     border-radius: 100%;
     box-shadow: 0 0 5px #fff;
     -webkit-animation:cushion 0.6s ease-in-out infinite alternate;
@@ -237,8 +252,8 @@
 /* modal1 */
 .lamp{
     position: absolute;
-    top: 35%;
-    left: 30%;
+    top: 40.5%;
+    left: 25%;
     height: 2.5%;
     background-color: #4476e0;
     border-radius: 100%;
@@ -282,8 +297,8 @@
 /* modal2 */
 .cover{
     position: absolute;
-    top: 46%;
-    left: 76%;
+    top: 34.4%;
+    left: 66%;
     height: 2.5%;
     background-color: #4476e0;
     border-radius: 100%;
@@ -327,7 +342,7 @@
 /* modal3 */
 .sheet{
     position: absolute;
-    top: 57%;
+    top: 63.2%;
     left: 33%;
     height: 2.5%;
     background-color: #4476e0;
@@ -370,6 +385,7 @@
 /* modal4 */
 .section03-footer{
     margin-top: 3%;
+    overflow: hidden;
 }
 .section03-footer img{
     width: 360px;
@@ -404,21 +420,29 @@
     margin-top: 3%;
 }
 /* section03 */
-.section04{
+#section4{
     width: 100%;
     height: 100vh;
     background-color: #eee;
     font-family: 'GmarketSansMedium'; 
 }
+.tab-margin{
+    margin-top: 5%;
+}
 .section04-title>h1{
     font-weight: bold;
     
-    margin-top: 3%;
+    margin-top: 4%;
     
 }
 .section04 img{
     width: 1140px;
 }
-.sonata-text{
-    margin-top: 9%;
+.sonata-text h2{
+    font-size: 16px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.nav-pills{
+    margin-left: 0.9%;
 }
