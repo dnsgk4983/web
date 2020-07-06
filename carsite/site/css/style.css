@@ -70,19 +70,13 @@
 .section02-bg{
     width: 100%;
     height: 100vh;
-    /* background: url('../images/bg-gray.jpg');
-    background-position: center;
-    background-size: cover; */
-    background: -webkit-gradient(linear, top left, bottom left, from(#d2ad9a), to(#5f7995));
-    background: -webkit-linear-gradient(#d2ad9a, #5f7995);
-    background: linear-gradient(#d2ad9a,#5f7995);
-	
+    background-color: #eff4fd;
 }
 .section02-title{
     font-family: 'GmarketSansMedium';
     margin-top: 100px;
     font-size: 48px;
-    color: white;
+    color: #000;
     font-weight: bold;
 }
 /* .tab-car-img{
@@ -97,18 +91,15 @@
 .section02-sub{
     margin-top: -150px;
 }
-.section02-sub>div{
-    border-radius: 25px;
-    border:2px solid rgba(10,0,10,1);
-}
 .tab-car-text{
     margin-top: 1%;
+    text-shadow: 1px 1px 0px black;
 }
 #wc9-t{
-    color: snow;
+    color: #fffafa;
 }
 #r2t-t{
-    color: silver;
+    color: #c0c0c0;
 }
 #nt2-t{
     color: #81868e;
@@ -127,25 +118,26 @@
 }
 .tab-car-color-text>ul>li{
     list-style: none;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    width: 50px;
-    height: 50px;
+    border-radius: 50px;
+    border: 2px solid rgba(0,0,0,0.8);
+    width: 40px;
+    height: 40px;
     margin: 20px 10px 10px 10px;
     cursor: pointer;
 }
 .tab-car-input{
-    margin-top: 15%;
+    margin-top: 10%;
     font-family: 'GmarketSansMedium'; 
 }
 .tab-car-color-text>ul{
     display: flex;
+    justify-content: center;
 }
 .wc9{
-    background-color: snow;
+    background-color: #fffafa;
 }
 .r2t{
-    background-color: silver;
+    background-color: #c0c0c0;
     opacity: 0.4;
 }
 .nt2{
