@@ -675,3 +675,8 @@ $(function(){
 		$(".main-bg").removeClass("on5");
 	});
 });
+$(function(){
+	$('.main-menu>li').hover(function(){
+		$(this).children('ul').stop().slideToggle();
+	});
+});

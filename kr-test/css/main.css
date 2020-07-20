@@ -1746,29 +1746,7 @@ header nav ul li a {
   position: relative;
 }
 
-header nav ul li a:before {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: #ffffff;
-  bottom: -5px;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-
 header nav ul li a:hover:before {
-  width: 100%;
-}
-
-header nav ul li a.active:before {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  background-color: #ffffff;
-  bottom: -5px;
   width: 100%;
 }
 
@@ -1802,10 +1780,7 @@ header nav .menu-button span:first-child {
   margin-top: 4px;
 }
 
-header nav ul,
-header nav .btn {
-  float: right;
-}
+
 
 header .btn-group .outline_button,
 header .btn-group .gradient_button {
@@ -4926,6 +4901,8 @@ footer .copyright span:nth-child(1) {
 /* 0720 added */
 .main-section{
   padding: 0;
+  position: relative;
+  z-index: 5;
 }
 .main-bg{
   background-image: url(../img/bg-main/section-1.jpg);
@@ -4947,7 +4924,7 @@ footer .copyright span:nth-child(1) {
   top: 25%;
   z-index: 2;
 }
-@media (min-width:787px){
+@media (min-width:992px){
   .on1{
     background-image: url(../img/bg-main/hover-main-block-1.jpg);
     background-size: cover;
@@ -5001,7 +4978,7 @@ footer .copyright span:nth-child(1) {
     background-repeat: no-repeat;
   }
 }
-@media (max-width:768px){
+@media (max-width:767px){
   .main-bg{
     background-image: url(../img/bg-main/section-1-m.jpg);
     background-position: center center;
@@ -5029,4 +5006,41 @@ footer .copyright span:nth-child(1) {
     top: 75%;
     left: 75%;
   }
+}
+#Features{
+  padding: 100px 0;
+}
+#Platform{
+  padding: 100px 0;
+}
+#Token{
+  padding: 100px 0;
+}
+#Offering{
+  padding: 100px 0;
+}
+#Blog{
+  padding: 100px 0;
+}
+header .container>.row>.col-xl-12{
+  display: flex;
+  justify-content: space-between;
+}
+header .btn_small{
+  padding-top: 10px !important;
+}
+header nav ul {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-menu>li{
+  margin: 0 50px;
+}
+.sub-nav{
+  display: none;
+}
+.sub-nav>a{
+  display: block;
 }
