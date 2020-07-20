@@ -65,7 +65,10 @@ html {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  overflow-x: hidden;
+}
+@media(max-width:768px){
+  html{overflow-x: hidden;
+  }
 }
 
 body {
