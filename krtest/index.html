@@ -260,12 +260,16 @@
 <!-- Section Platform -->
 <section id="Platform" class="banner white-banner light-content valign-center scroll-section">
 	<!-- Owl Carousel slides -->
-	<div class="owl-carousel tablet-owl owl-theme"></div>
+	<div class="owl-carousel tablet-owl owl-theme wow fadeInLeft">
 		<div class="item">
 			<video src="video/kr_movie_2.mp4" controls width="100%"></video>
 		</div>
 		<div class="item">
 			<video src="video/kr_movie_3.mp4" controls width="100%"></video>
+		</div>
+		<div class="item-button">
+			<div class="button1"></div>
+			<div class="button2"></div>
 		</div>
 	</div>
 	<div class="container">
@@ -284,7 +288,23 @@
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
+<script>
+	$('.button1').click(function(){
+		$('#Platform .item:nth-child(1)').css("display","block");
+		$('#Platform .item:nth-child(2)').css("display","none");
+		$('.button1').css("backgroundColor","#0aa4f9");
+		$('.button2').css("backgroundColor","transparent");
+		$('.button2').css("border","1px solid #0aa4f9");
+	});
+	$('.button2').click(function(){
+		$('#Platform .item:nth-child(2)').css("display","block");
+		$('#Platform .item:nth-child(1)').css("display","none");
+		$('.button2').css("backgroundColor","#0aa4f9");
+		$('.button1').css("backgroundColor","transparent");
+		$('.button1').css("border","1px solid #0aa4f9");
+	});
+</script>
 <!-- Section Token -->
 <section id="Token" class="banner blue-banner valign-center scroll-section">
 	<div class="container">
@@ -325,7 +345,7 @@
 					실시간 리얼타임 초단타 거래프로그램입니다.</span>
 				<a href="#" class="btn light_button abit-button">Join Presale</a>
 			</div>
-			<div class="col-xl-6 col-md-6">
+			<div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
 				<!-- Owl Carousel Slides -->
 				
 					<img src="img/bg-main/abit.png" alt="" width="50%">	
@@ -349,21 +369,21 @@
 				<span class="fs-12-m">따라서 저희 KR 투자컨설팅을 이용해 주시는 고객분들을 위해 전문 리딩러 오토매매를 무료로 지원해 드리며 매 월 새로운 이벤트를 통해 고객님들에 투자에 조금더 나은 방향을 제시하겠습니다.</span>
 			</div>
 			<div class="col-xl-12">
-				<article class="blog-card">
+				<article class="blog-card wow fadeInUp" data-wow-delay="0.2s">
 					<img src="img/cards/card-red.png" width="100%">
 					<div class="blog-text">
 						<h3>KR RED</h3>
 						<p>전문가의 리딩서비스 제공</p>
 					</div>
 				</article>
-				<article class="blog-card">
+				<article class="blog-card wow fadeInUp" data-wow-delay="0.4s">
 					<img src="img/cards/card-purple.png" width="100%">
 					<div class="blog-text">
 						<h3>KR PURPLE</h3>
 						<p>오토매매 서비스 프로그램 제공</p>
 					</div>
 				</article>
-				<article class="blog-card">
+				<article class="blog-card wow fadeInUp" data-wow-delay="0.6s">
 					<img src="img/cards/card-black.png" width="100%">
 					<div class="blog-text">
 						<h3>KR BLACK</h3>
@@ -405,7 +425,6 @@
 <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 <script src="libs/wow.min.js"></script>
 <script src="libs/owl/owl.carousel.js"></script>
-
 <script src="libs/jquery.scrollify.js"></script>
 <script src="js/main.js"></script>
 <script src="js/common.js"></script>

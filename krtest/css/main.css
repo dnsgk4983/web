@@ -5246,6 +5246,36 @@ padding-bottom: 5%;
   }
 }
 
+/* platfor */
+#Platform .item:nth-child(2){
+  display: none;
+}
+.item-button{
+  position: relative;
+}
+.button1{
+  position: absolute;
+  border-radius: 50px;
+  z-index: 9999999;
+  width: 20px;
+  height: 20px;
+  background-color: #0aa4f9;
+  cursor: pointer;
+  top: 100%;
+  left: 47%;
+}
+.button2{
+  position: absolute;
+  border-radius: 50px;
+  z-index: 9999999;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #0aa4f9;
+  cursor: pointer;
+  top: 100%;
+  left: 53%;
+}
+
 /* graph */
 .graph{
   width:380px; 
