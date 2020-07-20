@@ -5366,9 +5366,7 @@ padding-bottom: 5%;
   color: #fff;
 }
 @media(max-width: 768px){
-  .article-margin{
-    margin-top: -100px;
-  }
+  
 }
 /* subscribe area */
 .subscribe-title{
