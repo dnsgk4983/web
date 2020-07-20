@@ -14,6 +14,8 @@
 
 	<title>KR투자컨설팅</title>
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- aos -->
+	<link href="css/aos.css" rel="stylesheet">
 	<!-- Bootstrap 4 -->
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 	<!-- Animate CSS -->
@@ -32,20 +34,21 @@
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="libs/spacing.min.css">
+	
 </head>
 <body>
  <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>
-   jQuery(document).ready(function($) {
-      $('.counter').counterUp({
-         delay: 10,
-         time: 1000
-      });
-   });
-  </script>
+<script>
+jQuery(document).ready(function($) {
+	$('.counter').counterUp({
+		delay: 10,
+		time: 1000
+	});
+});
+</script>
 
 <header class="site_header site_header_dark">
 	<!-- Navigation -->
@@ -63,7 +66,7 @@
 						<span></span>
 					</span>
 					<ul class="main-menu">
-						<li><a href="#Home-dark">Home</a></li>
+						<li><a href="#Home">Home</a></li>
 						<li>
 							<a href="#Features">투자</a>
 							<ul class="sub-nav sub-nav0">
@@ -107,7 +110,7 @@
 			<img src="img/logo.png" alt="logotype">
 		</a>
 		<ul class="mobile-ul">
-			<li><a href="#Home-dark">Home</a></li>
+			<li><a href="#Home">Home</a></li>
 			<li>
 				<a href="#Features">투자</a>
 				<ul class="sub-nav-m">
@@ -159,7 +162,7 @@
 	</div>
 </header>
 
-<section>
+<section id="Home">
 	<div class="container-fluid scroll-section main-section">
 		<div class="main-bg section-1">
 			<a href="https://axp365.asia?c=cb4uj6" target="_blank"></a>
@@ -260,7 +263,7 @@
 <!-- Section Platform -->
 <section id="Platform" class="banner white-banner light-content valign-center scroll-section">
 	<!-- Owl Carousel slides -->
-	<div class="owl-carousel tablet-owl owl-theme wow fadeInLeft">
+	<div class="owl-carousel tablet-owl owl-theme" data-aos="fade-right">
 		<div class="item">
 			<video src="video/kr_movie_2.mp4" controls width="100%"></video>
 		</div>
@@ -272,6 +275,22 @@
 			<div class="button2"></div>
 		</div>
 	</div>
+<script>
+$('.button1').click(function(){
+$('#Platform .item:nth-child(1)').css("display","block");
+$('#Platform .item:nth-child(2)').css("display","none");
+$('.button1').css("backgroundColor","#0aa4f9");
+$('.button2').css("backgroundColor","transparent");
+$('.button2').css("border","1px solid #0aa4f9");
+});
+$('.button2').click(function(){
+$('#Platform .item:nth-child(2)').css("display","block");
+$('#Platform .item:nth-child(1)').css("display","none");
+$('.button2').css("backgroundColor","#0aa4f9");
+$('.button1').css("backgroundColor","transparent");
+$('.button1').css("border","1px solid #0aa4f9");
+});
+</script>
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-6 offset-xl-6 col-md-6 offset-md-6">
@@ -332,7 +351,7 @@
 					실시간 리얼타임 초단타 거래프로그램입니다.</span>
 				<a href="#" class="btn light_button abit-button">Join Presale</a>
 			</div>
-			<div class="col-xl-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+			<div class="col-xl-6 col-md-6" data-aos="fade-up">
 				<!-- Owl Carousel Slides -->
 				<img src="img/bg-main/abit.png" width="50%">	
 			</div>
@@ -355,21 +374,21 @@
 				<span class="fs-12-m">따라서 저희 KR 투자컨설팅을 이용해 주시는 고객분들을 위해 전문 리딩러 오토매매를 무료로 지원해 드리며 매 월 새로운 이벤트를 통해 고객님들에 투자에 조금더 나은 방향을 제시하겠습니다.</span>
 			</div>
 			<div class="col-xl-12">
-				<article class="blog-card wow fadeInUp" data-wow-delay="0.2s">
+				<article class="blog-card" data-aos="fade-up" data-aos-duration="1000">
 					<img src="img/cards/card-red.png" width="100%">
 					<div class="blog-text">
 						<h3>KR RED</h3>
 						<p>전문가의 리딩서비스 제공</p>
 					</div>
 				</article>
-				<article class="blog-card wow fadeInUp" data-wow-delay="0.4s">
+				<article class="blog-card" data-aos="fade-up" data-aos-duration="2000">
 					<img src="img/cards/card-purple.png" width="100%">
 					<div class="blog-text">
 						<h3>KR PURPLE</h3>
 						<p>오토매매 서비스 프로그램 제공</p>
 					</div>
 				</article>
-				<article class="blog-card wow fadeInUp" data-wow-delay="0.6s">
+				<article class="blog-card" data-aos="fade-up" data-aos-duration="3000">
 					<img src="img/cards/card-black.png" width="100%">
 					<div class="blog-text">
 						<h3>KR BLACK</h3>
@@ -414,6 +433,23 @@
 <script src="libs/jquery.scrollify.js"></script>
 <script src="js/main.js"></script>
 <script src="js/common.js"></script>
+<script src="js/aos.js"></script>
+<script>
+	AOS.init({
+		easing: 'ease-out-back',
+		duration: 1000
+	});
+</script>
+
+<script>
+	hljs.initHighlightingOnLoad();
+
+	$('.hero__scroll').on('click', function(e) {
+		$('html, body').animate({
+			scrollTop: $(window).height()
+		}, 1200);
+	});
+</script>
 
 </body>
 </html>
