@@ -4923,7 +4923,7 @@ footer .copyright span:nth-child(1) {
   bottom: 0;
 }
 
-/* 0709 added */
+/* 0720 added */
 .main-section{
   padding: 0;
 }
@@ -4949,7 +4949,7 @@ footer .copyright span:nth-child(1) {
 }
 @media (min-width:787px){
   .on1{
-    background-image: url(../img/bg-main/hover-main-block-1.png);
+    background-image: url(../img/bg-main/hover-main-block-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4961,7 +4961,7 @@ footer .copyright span:nth-child(1) {
     z-index: 2;
   }
   .on2{
-    background-image: url(../img/bg-main/hover-main-block-2.png);
+    background-image: url(../img/bg-main/hover-main-block-2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4969,12 +4969,12 @@ footer .copyright span:nth-child(1) {
   .main-bg a:nth-child(3){
     left: 50%;
     top: 49.8%;
-    width: 66%;
+    width: 32.5%;
     height: 66%;
     z-index: 3;
   }
   .on3{
-    background-image: url(../img/bg-main/hover-main-block-5.png);
+    background-image: url(../img/bg-main/hover-main-block-5.jpg);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -4984,7 +4984,7 @@ footer .copyright span:nth-child(1) {
     z-index: 2;
   }
   .on4{
-    background-image: url(../img/bg-main/hover-main-block-3.png);
+    background-image: url(../img/bg-main/hover-main-block-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4995,15 +4995,18 @@ footer .copyright span:nth-child(1) {
     z-index: 2;
   }
   .on5{
-    background-image: url(../img/bg-main/hover-main-block-4.png);
+    background-image: url(../img/bg-main/hover-main-block-4.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
   }
 }
-@media (max-width:767px){
+@media (max-width:768px){
   .main-bg{
     background-image: url(../img/bg-main/section-1-m.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
   }
   .main-bg a{
     width: 30%;
@@ -5016,6 +5019,7 @@ footer .copyright span:nth-child(1) {
   .main-bg a:nth-child(3){
     left: 50%;
     top: 55%;
+    width: 45%;
   }
   .main-bg a:nth-child(4){
     left: 25%;
