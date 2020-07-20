@@ -4578,6 +4578,7 @@ footer .copyright span:nth-child(1) {
   .about-light .parallax-bg,
   .white-banner .tablet-owl,
   .offering .offering-image {
+    visibility: visible !important;
     position: relative;
     left: 6%;
     width: 84vw;
@@ -5275,7 +5276,14 @@ padding-bottom: 5%;
   top: 100%;
   left: 53%;
 }
-
+@media (max-width:768px){
+  .button1{
+    top: 0;
+  }
+  .button2{
+    top: 0;
+  }
+}
 /* graph */
 .graph{
   width:380px; 
@@ -5359,4 +5367,10 @@ padding-bottom: 5%;
 }
 .subscribe-text{
   margin: 0;
+}
+#Offering>.container>.row>div{
+  visibility: visible !important;
+}
+.blog-card{
+  visibility: visible !important;
 }
