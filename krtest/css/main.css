@@ -5365,7 +5365,11 @@ padding-bottom: 5%;
   margin: 20px 0 0 20px;
   color: #fff;
 }
-
+@media(max-width: 768px){
+  .article-margin{
+    margin-top: -100px;
+  }
+}
 /* subscribe area */
 .subscribe-title{
   margin-top: 50px;
@@ -5379,4 +5383,11 @@ padding-bottom: 5%;
 }
 .blog-card{
   visibility: visible !important;
+}
+@media (max-width:414px){
+  .about-light .parallax-bg,
+  .white-banner .tablet-owl,
+  .offering .offering-image {
+    left: 33%;
+  }
 }
