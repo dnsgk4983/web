@@ -1115,7 +1115,7 @@ a{
         -o-transition: all .5s ease;
         transition: all .5s ease;
         width: 150px;
-        padding-left: -10px;
+        margin-left: -10px;
     }
     .sec5-open-txt2{
         padding: 10px 0 0;
