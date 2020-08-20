@@ -160,5 +160,23 @@ $(function(){
         $(".nb9").css("opacity","0.4");
         $(".y2e").css("opacity","1");
     });
-    
 });
+onscroll = function() {
+    var nVScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    if(nVScroll < 969) {
+        $("#menu li").removeClass("active-menu");
+        $("#menu li:nth-child(1)").addClass("active-menu");
+    }else if(nVScroll > 970, nVScroll < 1930){
+        $("#menu li").removeClass("active-menu");
+        $("#menu li:nth-child(2)").addClass("active-menu");
+    }else if(nVScroll > 1931, nVScroll < 2890){
+        $("#menu li").removeClass("active-menu");
+        $("#menu li:nth-child(3)").addClass("active-menu");
+    }else if(nVScroll > 2891, nVScroll < 3850){
+        $("#menu li").removeClass("active-menu");
+        $("#menu li:nth-child(4)").addClass("active-menu");
+    }else if(nVScroll > 3851){
+        $("#menu li").removeClass("active-menu");
+        $("#menu li:nth-child(5)").addClass("active-menu");
+    }
+  };

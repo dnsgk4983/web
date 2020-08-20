@@ -5,6 +5,9 @@
     font-weight: normal; 
     font-style: normal; 
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,12 +20,11 @@
 }
 .main-section{
     width: 100%;
-    height: 100vh;
     position: relative;
 }
 .sonata-img{
     width: 100%;
-    height: 108vh;
+    height: 100vh;
     background: url('../images/sonata-1.jpg');
     background-position: bottom center;
     background-size: cover;
@@ -78,7 +80,7 @@
 .section02-bg{
     width: 100%;
     height: 100vh;
-    background-color: #eff4fd;
+    background-color: #f7faff;
 }
 .section02-title{
     font-family: 'GmarketSansMedium';
@@ -87,12 +89,12 @@
     color: #000;
     font-weight: bold;
 }
-/* .tab-car-img{
-    height: 40vh;
+.tab-car-img{
+    color: #000;
 }
-*/
+
 .tab-car-img img{
-    margin-top: -20px;
+    margin-top: -60px;
     width: 60%;
 }
 
@@ -101,33 +103,13 @@
 }
 .tab-car-text{
     margin-top: 1%;
-    text-shadow: 1px 1px 0px black;
 }
-#wc9-t{
-    color: #fffafa;
-}
-#r2t-t{
-    color: #c0c0c0;
-}
-#nt2-t{
-    color: #81868e;
-}
-#t2g-t{
-    color: #454a4e;
-}
-#xb2-t{
-    color: #2e3641;
-}
-#nb9-t{
-    color: #141418;
-}
-#y2e-t{
-    color: #a21825;
-}
+
 .tab-car-color-text>ul>li{
     list-style: none;
+    position: relative;
     border-radius: 50px;
-    border: 2px solid rgba(0,0,0,0.8);
+    border: 2px solid rgba(0,0,0,0.2);
     width: 40px;
     height: 40px;
     margin: 20px 10px 10px 10px;
@@ -178,11 +160,11 @@
 #section3{
     width: 100%;
     height: 1000px;
-    background-color: #f6f3f2;
+    background: #f5f8fe;
     position: relative;
 }
 .section03-title{
-    margin-top: 3%;
+    margin-top: 30px;
 }
 .section03-title>h1{
     font-weight: bold;
@@ -404,7 +386,7 @@
 }
 /* modal4 */
 .section03-footer{
-    margin-top: 3%;
+    margin-top: 2%;
     overflow: hidden;
 }
 .section03-footer img{
@@ -443,7 +425,7 @@
 #section4{
     width: 100%;
     height: 1000px;
-    background-color: #eee;
+    background-color: #f3f6fd;
     font-family: 'GmarketSansMedium'; 
 }
 .tab-margin{
@@ -465,4 +447,59 @@
     width: 25%;
     margin: 0;
     display: inline-block;
+}
+
+#menu{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 70;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    display: flex;
+}
+a:hover {
+    text-decoration: none;
+    
+}
+#menu li{
+    margin: 0 2rem;
+    list-style: none;
+}
+
+#menu .active-menu a{
+    color: #0049e5 !important;
+    border-bottom: 2px solid #0049e5;
+}
+
+.color-active::after{
+    content: "\f058";
+    font-family: FontAwesome;
+    position: absolute;
+    top:-15px;
+    right: -5px;
+    color: #0049e5;
+    z-index: 99999;
+    font-size: 18px;
+}
+.car-warning{
+    text-align: center;
+    margin: -15px 0 30px;
+}
+
+.section5-title p{
+    margin-top: 6%;
+    font-size: 36px;
+    font-weight: 500;
+}
+.section5-sub p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.section5-caption p{
+    font-size: 14px;
+    letter-spacing:-1px;
+    color: #333
 }

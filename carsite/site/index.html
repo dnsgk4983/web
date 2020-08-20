@@ -7,32 +7,26 @@
     <title>HYUNDAI - SONATA 2020</title>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrolloverflow.min.js"></script>
-    <script src="js/jquery.fullpage.min.js"></script>
+    <!-- <script src="js/scrolloverflow.min.js"></script> -->
+    <script src="js/jquery.fullpage.js"></script>
     <script src="js/script.js"></script>
-    <script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-            navigation: true,
-            navigationPosition: 'right',
-            });
-		});
-    </script>
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <section>
     <div id="fullpage" class="fullpage-wrapper">
-        <div id="fp-nav" class="right">
-            <ul>>
-                <li><a href="#section1" class="active"></a></li>
-                <li><a href="#section2"></a></li>
-                <li><a href="#section3"></a></li>
-                <li><a href="#section4"></a></li>
-                <li><a href="#section5"></a></li>
-            </ul>
-        </div>
+
+        <ul id="menu">
+            <li class="active-menu"><a href="#section1">Main</a></li>
+            <li><a href="#section2">Design</a></li>
+            <li><a href="#section3">Space</a></li>
+            <li><a href="#section4">Interior</a></li>
+            <li><a href="#section5">System</a></li>
+        </ul>
+
         <div class="section page main-section" id="section1">
             <div class="container-fluid">
                 <div class="row text-center">
@@ -86,6 +80,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="car-warning">
+                    <p>※ 상기 이미지는 실제 차량 컬러와 다를 수 있으며 사전 예고없이 변경될 수 있습니다.</p>
+                </div>
                 <div class="container section02-sub text-center">
                     <div class="row text-center tab-car-input">
                         <div class="col-sm-12 tab-car-text">
@@ -117,7 +114,7 @@
                         m-12">
                             <div class="tab-car-color-text">
                                 <ul>
-                                    <li class="wc9"><a href="#"></a></li>
+                                    <li class="wc9 color-active"><a href="#"></a></li>
                                     <li class="r2t"><a href="#"></a></li>
                                     <li class="nt2"><a href="#"></a></li>
                                     <li class="t2g"><a href="#"></a></li>
@@ -258,14 +255,31 @@
                     <p>Smart Multimedia System</p>
                 </div>
                 <div class="section5-sub">
-                    <p></p>
+                    <p>더욱 영리해진 차량의 기능들을 체험해보세요</p>
+                </div>
+                <div class="section5-caption">
+                    <p>카메라 입력 영상을 실시간으로 확인하는 것은 물론, 다양한 기능을 차 안에서뿐 아니라 연동된 스마트폰에서도 확인할 수 있습니다.</p>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="images/section05-multi.webp">
+                        <div class="multi-title">
+                            <p>빌트인 캠</p>
+                        </div>
+                        <div class="multi-sub">
+                            <p>자동차로 눈앞의 아름다운 풍경을 담을 수 있게 되었습니다. 차량의 전/후방에 고화질 카메라가 내장된 영상 기록장치로, 인포테인먼트 시스템과 연동되어 고화질의 영상을 손쉽게 저장 및 재생할 수 있으며, 타임랩스 녹화 및 저장 데이터 줌인 기능도 지원합니다.</p>
+                            <p>* 빌트인 캠 보조배터리 선택시 주차 녹화 기능을 사용할 수 있습니다.</p>
+                        </div>
                     </div>
                     <div class="col-sm-6">
                         <img src="images/section05-phone.webp">
+                        <div class="multi-title">
+                            <p>빌트인 캠 - 스마트폰 연동</p>
+                        </div>
+                        <div class="multi-sub">
+                            <p>전용 스마트폰 앱으로 무선 WiFi나 USB 케이블과 연결하여 실시간 화면 확인 / 촬영 영상 재생 / 촬영 영상 다운로드 / 저장한 타임랩스 영상의 SNS 연동 또한 가능합니다.</p>
+                            <p>* 스마트폰과 연동하여 서비스를 이용하려면 스마트폰에 빌트인 캠 어플을 설치해야 합니다. 사용하는 스마트폰에 따라 Google Play 스토어나 App Store에서 '빌트인 캠' 어플을 다운로드하여 설치하십시오.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -273,6 +287,33 @@
         
     </div>
 </section>
+<script type="text/javascript">
+    // $(document).ready(function() {
+    //     $('#fullpage').fullpage({
+    //         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+    //         autoScrolling:true,
+    //         scrollHorizontally: true,
+    //         scrolloverflow: true,
+    //         menu: '#menu',
+    //         anchors:['#section1', '#section2', '#section3', '#section4'],
+    //         navigation: false
+    //     });
+    // });
+</script>
+<script type="text/javascript">
+    $(function(){
+        var tab = '.tab-car-color-text li';
+        $(tab).on('click', function(){
+            $(tab).removeClass('color-active');
+            $(this).addClass('color-active');
+        });
+        var menutab = "#menu li";
+        $(menutab).on('click', function(){
+            $(menutab).removeClass('active-menu');
+            $(this).addClass('active-menu');
+        });
+    });
+</script>
 
 </body>
 </html>
