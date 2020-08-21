@@ -180,3 +180,8 @@ onscroll = function() {
         $("#menu li:nth-child(5)").addClass("active-menu");
     }
   };
+  $(function(){
+      $(".cushion").click(function(){
+          $('#myModal1').fadeIn()
+      });
+  })
